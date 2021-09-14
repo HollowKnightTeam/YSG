@@ -57,16 +57,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\02.Scripts\Player\AttackTrail.cs" />
+    <Compile Include="Assets\02.Scripts\Enemy\Boomerang.cs" />
     <Compile Include="Assets\02.Scripts\Player\PlayerCtrl.cs" />
     <Compile Include="Assets\02.Scripts\Player\Shade.cs" />
-    <Compile Include="Assets\02.Scripts\Player\FollowCam.cs" />
-    <Compile Include="Assets\Assets\Scripts\BlurControl.cs" />
-    <Compile Include="Assets\02.Scripts\Player\ParticleToTarget.cs" />
-    <Compile Include="Assets\02.Scripts\Enemy\exmonster.cs" />
-    <Compile Include="Assets\02.Scripts\Enemy\player.cs" />
     <Compile Include="Assets\02.Scripts\Enemy\Mantis_baby.cs" />
+    <Compile Include="Assets\02.Scripts\Player\FollowCam.cs" />
+    <Compile Include="Assets\02.Scripts\Enemy\EnemyDamageScr.cs" />
     <Compile Include="Assets\02.Scripts\Enemy\UIManager.cs" />
+    <Compile Include="Assets\Assets\Scripts\BlurControl.cs" />
+    <Compile Include="Assets\02.Scripts\Enemy\Boss.cs" />
+    <Compile Include="Assets\02.Scripts\Player\SetShadePos.cs" />
     <Compile Include="Assets\02.Scripts\Enemy\monsterAI.cs" />
+    <Compile Include="Assets\02.Scripts\Enemy\Sense.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Assets\Shaders\WaterBlurFinal.shader" />

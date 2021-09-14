@@ -15,11 +15,11 @@ C:/Users/admin/Documents/GitHub/Unity/Practice/Task_HollowKnight_Player_Test
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56673
+55813
 Successfully changed project path to: C:/Users/admin/Documents/GitHub/Unity/Practice/Task_HollowKnight_Player_Test
 C:/Users/admin/Documents/GitHub/Unity/Practice/Task_HollowKnight_Player_Test
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 60.49 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 55.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -35,1125 +35,1283 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002109 seconds.
+Registered in 0.002138 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 46.02 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 50.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.201 seconds
+- Completed reload, in  2.512 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005044 seconds.
+Registered in 3.366885 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 44.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 50.01 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.252 seconds
+- Completed reload, in  1.501 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2095 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.6 MB.
+System memory in use after: 182.5 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2562.
+Total: 2.597100 ms (FindLiveObjects: 0.219000 ms CreateObjectMapping: 0.154500 ms MarkObjects: 1.994700 ms  DeleteObjects: 0.227700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/02.Scripts/Enemy/monsterAI.cs
+  artifactKey: Guid(a04c1257733ea164380b5f4bdba82a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Scripts/Enemy/monsterAI.cs using Guid(a04c1257733ea164380b5f4bdba82a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e901aee703f7f82f2d458472e7993d6') in 0.052054 seconds
+  Import took 0.055634 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005618 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.367 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.8 MB.
-System memory in use after: 180.8 MB.
+System memory in use before: 182.3 MB.
+System memory in use after: 182.3 MB.
 
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2547.
-Total: 2.496400 ms (FindLiveObjects: 0.197100 ms CreateObjectMapping: 0.081700 ms MarkObjects: 2.031700 ms  DeleteObjects: 0.185100 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2566.
+Total: 3.561700 ms (FindLiveObjects: 0.224000 ms CreateObjectMapping: 0.099000 ms MarkObjects: 3.086600 ms  DeleteObjects: 0.150800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/06.Animations/Player/Player.controller
-  artifactKey: Guid(f82be2676c1c3754699f4b93ade7d834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/06.Animations/Player/Player.controller using Guid(f82be2676c1c3754699f4b93ade7d834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd79e8e9719057caff4cd1c098ce4e1dd') in 0.069718 seconds
-  Import took 0.073883 seconds .
+  Time since last request: 32.696829 seconds.
+  path: Assets/02.Scripts/Enemy/monsterAI.cs
+  artifactKey: Guid(a04c1257733ea164380b5f4bdba82a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Scripts/Enemy/monsterAI.cs using Guid(a04c1257733ea164380b5f4bdba82a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc401b0058f47cd6582e571def45577') in 0.015740 seconds
+  Import took 0.020080 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.322922 seconds.
+Registered in 0.004723 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.209 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.4 MB.
+System memory in use after: 182.3 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2570.
+Total: 2.673200 ms (FindLiveObjects: 0.201600 ms CreateObjectMapping: 0.083800 ms MarkObjects: 2.204000 ms  DeleteObjects: 0.182800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.294320 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/2.Stand up
+  artifactKey: Guid(8c9729d7398650d43a2c0d84dacff80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/2.Stand up using Guid(8c9729d7398650d43a2c0d84dacff80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b14c97b7f100566b01197a663c7ab9') in 0.021272 seconds
+  Import took 0.026182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.507635 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/MantisLords_1.png
+  artifactKey: Guid(cab5e4ce231aced45b33db4a1551a55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/MantisLords_1.png using Guid(cab5e4ce231aced45b33db4a1551a55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09622ba10c0eb837efdcca3ad93ab440') in 0.358967 seconds
+  Import took 0.363106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.734804 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/1.Raise your head
+  artifactKey: Guid(2d4a2d87d097d8e47b5ab67edaab3672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/1.Raise your head using Guid(2d4a2d87d097d8e47b5ab67edaab3672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5e39688fb46c3faeb1b6511f2e5431') in 0.021148 seconds
+  Import took 0.025208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.914958 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/MantisLords_2.png
+  artifactKey: Guid(33607b1968ae14e408779e57036a2f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/MantisLords_2.png using Guid(33607b1968ae14e408779e57036a2f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c11a44a499b5955b367758f720d786c') in 0.131309 seconds
+  Import took 0.135295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.550138 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/MantisLords_2.png
+  artifactKey: Guid(33607b1968ae14e408779e57036a2f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/MantisLords_2.png using Guid(33607b1968ae14e408779e57036a2f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec74a9f07094e049fcbb2af009835079') in 0.163069 seconds
+  Import took 0.168237 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008099 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.087 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.7 MB.
+System memory in use after: 185.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2742.
+Total: 2.875300 ms (FindLiveObjects: 0.236800 ms CreateObjectMapping: 0.098700 ms MarkObjects: 2.305200 ms  DeleteObjects: 0.218900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006125 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.072 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.7 MB.
+System memory in use after: 185.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2746.
+Total: 2.660600 ms (FindLiveObjects: 0.242100 ms CreateObjectMapping: 0.091900 ms MarkObjects: 2.125600 ms  DeleteObjects: 0.199900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005945 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.058 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.8 MB.
+System memory in use after: 185.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2750.
+Total: 3.025400 ms (FindLiveObjects: 0.376300 ms CreateObjectMapping: 0.158100 ms MarkObjects: 2.332500 ms  DeleteObjects: 0.157100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 207.670768 seconds.
+  path: Assets/06.Animations/Enemy/Boss/3.4Rush_End1.anim
+  artifactKey: Guid(854e8c576d1df224fbaf79c4013b3de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Animations/Enemy/Boss/3.4Rush_End1.anim using Guid(854e8c576d1df224fbaf79c4013b3de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '515385b77fd1ea4fc64e1179463bb082') in 0.041124 seconds
+  Import took 0.044726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.472714 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_01.asset
+  artifactKey: Guid(c5972dd44dec2b640b6f91437d761bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_01.asset using Guid(c5972dd44dec2b640b6f91437d761bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c966d6833a15c7bbede9601da3316c') in 0.100608 seconds
+  Import took 0.107446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_02.asset
+  artifactKey: Guid(4dc67946c5b91cb48bc137e1186364e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_02.asset using Guid(4dc67946c5b91cb48bc137e1186364e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '388b86e84c1d3c09ee21915eb81bb201') in 0.042298 seconds
+  Import took 0.049047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.791180 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_03.asset
+  artifactKey: Guid(a417d0b3d7e3a10478a312601cd57e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_03.asset using Guid(a417d0b3d7e3a10478a312601cd57e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d8794ec904ecf4f1d9ea066d2c1a01') in 0.048022 seconds
+  Import took 0.055316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_05.asset
+  artifactKey: Guid(2d461da2c41ce184992df2a8b070e98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_05.asset using Guid(2d461da2c41ce184992df2a8b070e98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d1949c21c89b5e7021ceb0bdf8cc3c') in 0.048923 seconds
+  Import took 0.058829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_09.asset
+  artifactKey: Guid(07a2ef72a6254d943ba197c4926ba828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_09.asset using Guid(07a2ef72a6254d943ba197c4926ba828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea50de2a75f64fa4c5388c9da6cedec') in 0.044579 seconds
+  Import took 0.051113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_03.asset
+  artifactKey: Guid(a417d0b3d7e3a10478a312601cd57e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_03.asset using Guid(a417d0b3d7e3a10478a312601cd57e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d8794ec904ecf4f1d9ea066d2c1a01') in 0.036448 seconds
+  Import took 0.042468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_12.asset
+  artifactKey: Guid(45619715192e3e84fa3bb0ffd239b4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_12.asset using Guid(45619715192e3e84fa3bb0ffd239b4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '971ebf923f1a8ea783405e4dd6b32234') in 0.045613 seconds
+  Import took 0.052608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_07.asset
+  artifactKey: Guid(137344fe4b315e74e9ae6872ffaeba91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_07.asset using Guid(137344fe4b315e74e9ae6872ffaeba91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01db39029055fd7f4f2cab51dceea2ff') in 0.045262 seconds
+  Import took 0.050792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_11.asset
+  artifactKey: Guid(d7918d6620e5fd043a06e99fbf8ff047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_11.asset using Guid(d7918d6620e5fd043a06e99fbf8ff047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf7b8264e0749ed7e0cfe33a0b46462') in 0.045541 seconds
+  Import took 0.051958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_10.asset
+  artifactKey: Guid(ac632dd63f9e1864c91028c1d009b26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_10.asset using Guid(ac632dd63f9e1864c91028c1d009b26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b3b25c60a19f1573597870d66f9e593') in 0.050935 seconds
+  Import took 0.056965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_08.asset
+  artifactKey: Guid(ff3c13b6f33edec47ad00b1df4e2cc75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_08.asset using Guid(ff3c13b6f33edec47ad00b1df4e2cc75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '076ef3f54f49074e838722c7975797f5') in 0.045133 seconds
+  Import took 0.052186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000563 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_06.asset
+  artifactKey: Guid(eabc78baff4b5dd4a8880390ab744254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_06.asset using Guid(eabc78baff4b5dd4a8880390ab744254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b531eb34367d5930b930d7aab0ed6f94') in 0.045692 seconds
+  Import took 0.052194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_04.asset
+  artifactKey: Guid(5a03f52b5d0ab454ebe12862bc7cff3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_04.asset using Guid(5a03f52b5d0ab454ebe12862bc7cff3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd84b452fc26ece7704e263776b1e0cf9') in 0.046931 seconds
+  Import took 0.053957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.310518 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_13.asset
+  artifactKey: Guid(a6eca0bdaf58089468744280847a6cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_13.asset using Guid(a6eca0bdaf58089468744280847a6cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a46fa51c8064d94fe692a80dbe0341') in 0.049046 seconds
+  Import took 0.057046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_14.asset
+  artifactKey: Guid(5255a2ff70f70904f82a3b3c849ff0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_14.asset using Guid(5255a2ff70f70904f82a3b3c849ff0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '273980429ac28bb1d87f0c3d39f16152') in 0.052457 seconds
+  Import took 0.059774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_13.asset
+  artifactKey: Guid(a6eca0bdaf58089468744280847a6cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_13.asset using Guid(a6eca0bdaf58089468744280847a6cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a46fa51c8064d94fe692a80dbe0341') in 0.036842 seconds
+  Import took 0.043930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.337671 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_15.asset
+  artifactKey: Guid(826495074efd791469d95214261bc58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_15.asset using Guid(826495074efd791469d95214261bc58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcbe7dec63a42bf80e79d836e8f6b9fa') in 0.050327 seconds
+  Import took 0.057098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_18.asset
+  artifactKey: Guid(5a8da8ae8aee989469bfab361016e187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_18.asset using Guid(5a8da8ae8aee989469bfab361016e187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c63cd7977c88f219a62ca2737768a37') in 0.042960 seconds
+  Import took 0.050911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_15.asset
+  artifactKey: Guid(826495074efd791469d95214261bc58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_15.asset using Guid(826495074efd791469d95214261bc58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcbe7dec63a42bf80e79d836e8f6b9fa') in 0.046429 seconds
+  Import took 0.054040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_20.asset
+  artifactKey: Guid(0a9aa05e1fafeb345be98d6e05df7541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_20.asset using Guid(0a9aa05e1fafeb345be98d6e05df7541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d6bb3cdb836433165ee24594c1d8ac') in 0.045755 seconds
+  Import took 0.052337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_16.asset
+  artifactKey: Guid(cb94d04b78ff10940b5f4bce34e17896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_16.asset using Guid(cb94d04b78ff10940b5f4bce34e17896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e313e2b8e306bde51c7011591b9b57bf') in 0.040541 seconds
+  Import took 0.047343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_17.asset
+  artifactKey: Guid(927d243541ac24746b86ce4a80bd6060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_17.asset using Guid(927d243541ac24746b86ce4a80bd6060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a302bfdbf6582dda217deb9f07b60104') in 0.048345 seconds
+  Import took 0.054622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_19.asset
+  artifactKey: Guid(a3ecdac5f77e2ba439640bfdc235a184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_19.asset using Guid(a3ecdac5f77e2ba439640bfdc235a184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfab39e646b5572f85c133381bf4b445') in 0.045381 seconds
+  Import took 0.051482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.897161 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/MantisLords_1.png
+  artifactKey: Guid(cab5e4ce231aced45b33db4a1551a55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/MantisLords_1.png using Guid(cab5e4ce231aced45b33db4a1551a55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371f1cdd18ee728680bbfca1f8de517b') in 0.366132 seconds
+  Import took 0.371182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.082542 seconds.
+  path: Assets/06.Animations/Enemy/Boss/4.1Flying_Start.anim
+  artifactKey: Guid(318ce252ab3417d45bdad16f5a6ddf6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Animations/Enemy/Boss/4.1Flying_Start.anim using Guid(318ce252ab3417d45bdad16f5a6ddf6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d16ecd8a94e1a2713139c2eb8894dc') in 0.018388 seconds
+  Import took 0.022551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018592 seconds.
+  path: Assets/06.Animations/Enemy/Boss/4.1Flying_Start.anim
+  artifactKey: Guid(318ce252ab3417d45bdad16f5a6ddf6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Animations/Enemy/Boss/4.1Flying_Start.anim using Guid(318ce252ab3417d45bdad16f5a6ddf6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d16ecd8a94e1a2713139c2eb8894dc') in 0.012004 seconds
+  Import took 0.016568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.414316 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/5.Wall_Attack
+  artifactKey: Guid(5b1aaf9aacb3db7418387c4914541cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/5.Wall_Attack using Guid(5b1aaf9aacb3db7418387c4914541cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea054008dde607569a81645bf923f49') in 0.016323 seconds
+  Import took 0.020236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.443675 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot
+  artifactKey: Guid(3957ac3613083b3419407c9f844afe46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot using Guid(3957ac3613083b3419407c9f844afe46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e70a67f288338b9d1a3f8fee88a14bed') in 0.015458 seconds
+  Import took 0.019301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.863807 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_21.asset
+  artifactKey: Guid(96849513ccda1bd4ca455a63b15a4f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_21.asset using Guid(96849513ccda1bd4ca455a63b15a4f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0518ba407d49b34d63500589cc37b0a') in 0.039774 seconds
+  Import took 0.044977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.111990 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_22.asset
+  artifactKey: Guid(0c2d5752a1d272e4bb53000714969c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_22.asset using Guid(0c2d5752a1d272e4bb53000714969c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41383b14e1793df29adb0fab30df5b8') in 0.040060 seconds
+  Import took 0.044834 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012415 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.785 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.9 MB.
+System memory in use after: 186.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2777.
+Total: 3.622500 ms (FindLiveObjects: 0.430800 ms CreateObjectMapping: 0.142300 ms MarkObjects: 2.881700 ms  DeleteObjects: 0.166100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 82.148517 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/8.Boomerang
+  artifactKey: Guid(6a18895d4acdb5d4d8a712d5b4b66092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/8.Boomerang using Guid(6a18895d4acdb5d4d8a712d5b4b66092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f19c7f46fb3e7417b50bd1295e818549') in 0.017753 seconds
+  Import took 0.022058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.328218 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/MantisLords_2_22.asset
+  artifactKey: Guid(25fc43bf3d17e11409a1226192cefe57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/MantisLords_2_22.asset using Guid(25fc43bf3d17e11409a1226192cefe57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d5d07c5b33bf1625610052f74ae167') in 0.086226 seconds
+  Import took 0.090953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.948275 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_01.asset
+  artifactKey: Guid(d3de51bed9f867d47bf0f019422c56ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_01.asset using Guid(d3de51bed9f867d47bf0f019422c56ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '102310c706a6ebb58e11a9e632811437') in 0.041126 seconds
+  Import took 0.045906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.512143 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_02.asset
+  artifactKey: Guid(71193edb7eeb4754eb3c5523c134220a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_02.asset using Guid(71193edb7eeb4754eb3c5523c134220a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '958794c181712b509421ac1df8684897') in 0.044316 seconds
+  Import took 0.051604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.136571 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_03.asset
+  artifactKey: Guid(822b7b11cb5714f44b9acc8e1cc3ac4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_03.asset using Guid(822b7b11cb5714f44b9acc8e1cc3ac4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5607bda1b0671a91304219152382ce5') in 0.037730 seconds
+  Import took 0.042676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.602039 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_04.asset
+  artifactKey: Guid(f641f440e5366344997cd425d84ba983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_04.asset using Guid(f641f440e5366344997cd425d84ba983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f348138f37ec39b9a7b0539d9ad78fc') in 0.041164 seconds
+  Import took 0.047168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.322975 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_05.asset
+  artifactKey: Guid(652104ad7fbdfce4ca87c82d9e2bf188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_05.asset using Guid(652104ad7fbdfce4ca87c82d9e2bf188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d957905a405872c9a8d7d556553b189') in 0.041323 seconds
+  Import took 0.046598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.646838 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_06.asset
+  artifactKey: Guid(0add264a31e3db1438cb0874ffb09436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_06.asset using Guid(0add264a31e3db1438cb0874ffb09436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c80f35547cdbab00ce09c91ef9ba25') in 0.042143 seconds
+  Import took 0.046929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.565529 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_07.asset
+  artifactKey: Guid(8e0919b7a1cdfd54bb3b916155feaee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_07.asset using Guid(8e0919b7a1cdfd54bb3b916155feaee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1493a4231a92b90c7c70bb98c8adcf48') in 0.039574 seconds
+  Import took 0.044576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.174967 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_08.asset
+  artifactKey: Guid(827a556293183c14e831c5b314373a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_08.asset using Guid(827a556293183c14e831c5b314373a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ff5a63d0a2bae517b943ab788145668') in 0.042346 seconds
+  Import took 0.047187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.286214 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_09.asset
+  artifactKey: Guid(e4e79be68e3333243a5b2dc1f3ee0ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_09.asset using Guid(e4e79be68e3333243a5b2dc1f3ee0ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3493545051a5794e6e09fa5c5bb8e0e3') in 0.043330 seconds
+  Import took 0.048184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.104243 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_11.asset
+  artifactKey: Guid(4d4a53155cf2c6d4bba616631a780127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_11.asset using Guid(4d4a53155cf2c6d4bba616631a780127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bbcbfbc7ae0a74733d5f620eef7bd4c') in 0.041387 seconds
+  Import took 0.047182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.452913 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_10.asset
+  artifactKey: Guid(b1384cb9c239010439f2d8949fcb0a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_10.asset using Guid(b1384cb9c239010439f2d8949fcb0a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b9c826f4845b16953c76c87a86ead2') in 0.046936 seconds
+  Import took 0.051589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.318016 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_12.asset
+  artifactKey: Guid(63b54b490f3b21f498c650c1ccd6f3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_12.asset using Guid(63b54b490f3b21f498c650c1ccd6f3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f44142009bc3f74df2caf416584e5e') in 0.041600 seconds
+  Import took 0.046572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.770721 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_13.asset
+  artifactKey: Guid(418d20d45f5ccff4ebe1c31489bad450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_13.asset using Guid(418d20d45f5ccff4ebe1c31489bad450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb788c5c8546d3654ab37f38f9a29fd') in 0.040233 seconds
+  Import took 0.046156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.175057 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_14.asset
+  artifactKey: Guid(0f1eb6a85770c7b468eb5409a366a25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_14.asset using Guid(0f1eb6a85770c7b468eb5409a366a25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f8f20463de61959fbd226438b6be0d') in 0.039458 seconds
+  Import took 0.044497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.143827 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_15.asset
+  artifactKey: Guid(4e8b193992f31724e85647f6d3cbdb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_15.asset using Guid(4e8b193992f31724e85647f6d3cbdb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fcd75745fe64c2c58db112ed81c6912') in 0.041653 seconds
+  Import took 0.049066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.491982 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_17.asset
+  artifactKey: Guid(3bc56e5d10d1f0845aa1db735b897e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_17.asset using Guid(3bc56e5d10d1f0845aa1db735b897e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffbb5b8c50f99d435d6c895255354d94') in 0.048362 seconds
+  Import took 0.053171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.406064 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_16.asset
+  artifactKey: Guid(60f65fd929dca644490286896feedb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_16.asset using Guid(60f65fd929dca644490286896feedb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef63033e4d6dbc1a0e8d37be1d483df') in 0.042725 seconds
+  Import took 0.047459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.971732 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_18.asset
+  artifactKey: Guid(e74aa7e09797dd04a958d6aced9d9911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_18.asset using Guid(e74aa7e09797dd04a958d6aced9d9911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656677e8c18c0404105ef65e30ca0874') in 0.042919 seconds
+  Import took 0.049816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000987 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_18.asset
+  artifactKey: Guid(e74aa7e09797dd04a958d6aced9d9911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_18.asset using Guid(e74aa7e09797dd04a958d6aced9d9911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656677e8c18c0404105ef65e30ca0874') in 0.045298 seconds
+  Import took 0.052785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.282556 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_19.asset
+  artifactKey: Guid(a79c68893b03e7241ba33dba621cdab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_19.asset using Guid(a79c68893b03e7241ba33dba621cdab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad50b71d846ed3d4fbcbe17a0eb49f3') in 0.035320 seconds
+  Import took 0.040034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.852265 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_20.asset
+  artifactKey: Guid(e7195e630f230d44f9aa1cb8c3d1441f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_20.asset using Guid(e7195e630f230d44f9aa1cb8c3d1441f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2788095667ba1806902ad7419ec9395') in 0.040521 seconds
+  Import took 0.046327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000944 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_20.asset
+  artifactKey: Guid(e7195e630f230d44f9aa1cb8c3d1441f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_20.asset using Guid(e7195e630f230d44f9aa1cb8c3d1441f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2788095667ba1806902ad7419ec9395') in 0.043388 seconds
+  Import took 0.051471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.179869 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_21.asset
+  artifactKey: Guid(ac850ac6f7578d84c925ddc5c56478e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/4.Flying_Shot/MantisLords_2_21.asset using Guid(ac850ac6f7578d84c925ddc5c56478e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f102b4531697fca5b2ea7949908fb8') in 0.044588 seconds
+  Import took 0.049258 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004763 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.131 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.9 MB.
+System memory in use after: 186.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2782.
+Total: 2.458900 ms (FindLiveObjects: 0.225100 ms CreateObjectMapping: 0.087800 ms MarkObjects: 2.020300 ms  DeleteObjects: 0.124700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.384819 seconds.
+  path: Assets/03.Prefabs/enemy/MantisLords.prefab
+  artifactKey: Guid(c39494f88eaca9e4ca0f5d7938ec20c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Prefabs/enemy/MantisLords.prefab using Guid(c39494f88eaca9e4ca0f5d7938ec20c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee48f2bcc89f1e8d52eccb50cf1df42a') in 0.125225 seconds
+  Import took 0.131165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.070984 seconds.
+  path: Assets/03.Prefabs/enemy/MantisLords.prefab
+  artifactKey: Guid(c39494f88eaca9e4ca0f5d7938ec20c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Prefabs/enemy/MantisLords.prefab using Guid(c39494f88eaca9e4ca0f5d7938ec20c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ea8a2fec6e307c553013fc06319c92e') in 0.050084 seconds
+  Import took 0.059132 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005078 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.056 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.1 MB.
+System memory in use after: 186.2 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2790.
+Total: 2.543600 ms (FindLiveObjects: 0.251400 ms CreateObjectMapping: 0.098500 ms MarkObjects: 2.020700 ms  DeleteObjects: 0.171900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005061 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.057 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.1 MB.
+System memory in use after: 186.2 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2794.
+Total: 2.606900 ms (FindLiveObjects: 0.283700 ms CreateObjectMapping: 0.120300 ms MarkObjects: 2.024300 ms  DeleteObjects: 0.177500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004990 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.383 seconds
+- Completed reload, in  1.063 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2081 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.6 MB.
-System memory in use after: 180.6 MB.
+Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.1 MB.
+System memory in use after: 186.2 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2551.
-Total: 5.858100 ms (FindLiveObjects: 0.223400 ms CreateObjectMapping: 0.105900 ms MarkObjects: 3.597700 ms  DeleteObjects: 1.929400 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2798.
+Total: 2.634700 ms (FindLiveObjects: 0.259700 ms CreateObjectMapping: 0.103800 ms MarkObjects: 2.083300 ms  DeleteObjects: 0.186500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005039 seconds.
+Registered in 0.004589 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  1.052 seconds
 Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.1 MB.
+System memory in use after: 186.2 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2802.
+Total: 2.588700 ms (FindLiveObjects: 0.221800 ms CreateObjectMapping: 0.083500 ms MarkObjects: 2.111900 ms  DeleteObjects: 0.170600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.034438 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/3.Rushing
+  artifactKey: Guid(0b55055fcdf6a5c4997aa73a2b0570a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/3.Rushing using Guid(0b55055fcdf6a5c4997aa73a2b0570a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a1f79cf15cef0aaba0188d56ab1ae3') in 0.017880 seconds
+  Import took 0.022066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.745770 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/6.Dying
+  artifactKey: Guid(87b41bc8ab81a3b478389b825cbd4ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/6.Dying using Guid(87b41bc8ab81a3b478389b825cbd4ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e9415f7f6c956884dee1bf47b58942') in 0.014104 seconds
+  Import took 0.017791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.631316 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/7.loser
+  artifactKey: Guid(7d3056ca659d89446ad5b0ab965dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/7.loser using Guid(7d3056ca659d89446ad5b0ab965dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e570be05c008321f9d2a724c5670f96') in 0.014013 seconds
+  Import took 0.017905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.575641 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/6.Dying/MantisLords_2_25.asset
+  artifactKey: Guid(0bab2573b7a9b02468e77245ec7e77c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/6.Dying/MantisLords_2_25.asset using Guid(0bab2573b7a9b02468e77245ec7e77c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19395c8afa9a304178baed2f7f5506d') in 0.076169 seconds
+  Import took 0.081670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.083315 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/6.Dying/MantisLords_2_30.asset
+  artifactKey: Guid(0e442c284dfd6c840a10e03adbbb35cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/6.Dying/MantisLords_2_30.asset using Guid(0e442c284dfd6c840a10e03adbbb35cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7683a3372091f9cb392c21cc87fad9fa') in 0.037142 seconds
+  Import took 0.041960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.185836 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/MantisLords_2_33.asset
+  artifactKey: Guid(3a110e4fe08332c4a8c3f27dcd21fef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/MantisLords_2_33.asset using Guid(3a110e4fe08332c4a8c3f27dcd21fef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d186182e9c7940e078dcb0081a1566') in 0.043217 seconds
+  Import took 0.048396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.840092 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/6.Dying/MantisLords_2_25.asset
+  artifactKey: Guid(aa8cd9a40dc58324d98b31f27b46b341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/6.Dying/MantisLords_2_25.asset using Guid(aa8cd9a40dc58324d98b31f27b46b341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53bbfbcbd015e487360b63bf95155fa1') in 0.036154 seconds
+  Import took 0.040968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.535657 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/6.Dying/MantisLords_2_26.asset
+  artifactKey: Guid(b3ea1a89e736e2d4699be9eb2c58d164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/6.Dying/MantisLords_2_26.asset using Guid(b3ea1a89e736e2d4699be9eb2c58d164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c789042d420d04d635b8fdb6b307e6') in 0.047569 seconds
+  Import took 0.053396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.313970 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/6.Dying/MantisLords_2_27.asset
+  artifactKey: Guid(a06eab32c90d6e147b485a0360723558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/6.Dying/MantisLords_2_27.asset using Guid(a06eab32c90d6e147b485a0360723558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5894a04adfbd80e47a58506822cdeaae') in 0.040721 seconds
+  Import took 0.045442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.243958 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/6.Dying/MantisLords_2_28.asset
+  artifactKey: Guid(2d3981a066c794f409c49d0dc9ab9ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/6.Dying/MantisLords_2_28.asset using Guid(2d3981a066c794f409c49d0dc9ab9ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f11c83333fa07963071aaf34582e8ecb') in 0.041600 seconds
+  Import took 0.046444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.804007 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/6.Dying/MantisLords_2_29.asset
+  artifactKey: Guid(9bdc3a9db721c2a40bd71d354e7ebb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/6.Dying/MantisLords_2_29.asset using Guid(9bdc3a9db721c2a40bd71d354e7ebb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88daa4bdb1d9d04e4e1e0784f4cdac8') in 0.048824 seconds
+  Import took 0.053405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.145674 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/6.Dying/MantisLords_2_30.asset
+  artifactKey: Guid(c2346e7f29f76a9408dad9e7a1b1fb34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/6.Dying/MantisLords_2_30.asset using Guid(c2346e7f29f76a9408dad9e7a1b1fb34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e867fdf5f461fbf4c42c0b8b5146f0') in 0.039692 seconds
+  Import took 0.045782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.133892 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/6.Dying/MantisLords_2_31.asset
+  artifactKey: Guid(6d4a4c7f42afbf2449fa998de812e93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/6.Dying/MantisLords_2_31.asset using Guid(6d4a4c7f42afbf2449fa998de812e93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c82d2eb8dcfdcf8c3d4632057ce4a807') in 0.043174 seconds
+  Import took 0.049038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.947642 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/6.Dying/MantisLords_2_32.asset
+  artifactKey: Guid(bd51ef6e6e980484e94187ed05b60b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/6.Dying/MantisLords_2_32.asset using Guid(bd51ef6e6e980484e94187ed05b60b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8081895fbf59a9917a17e35004d9fe86') in 0.042627 seconds
+  Import took 0.047809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.504936 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/7.loser/MantisLords_1_10.asset
+  artifactKey: Guid(1029ef1a34fe90b45bc07bb999cc273d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/7.loser/MantisLords_1_10.asset using Guid(1029ef1a34fe90b45bc07bb999cc273d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aab10a08994b8326a8de1861685d85f') in 0.060737 seconds
+  Import took 0.067980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000494 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/7.loser/MantisLords_1_11.asset
+  artifactKey: Guid(7ab55638fd2a0004ab053d6f16b1c040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/7.loser/MantisLords_1_11.asset using Guid(7ab55638fd2a0004ab053d6f16b1c040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7be20a3f9c184d8257e8feecf83a7b08') in 0.056678 seconds
+  Import took 0.062934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/7.loser/MantisLords_1_12.asset
+  artifactKey: Guid(e7b4310c35d901c4dae3c4ecfc0e6c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/7.loser/MantisLords_1_12.asset using Guid(e7b4310c35d901c4dae3c4ecfc0e6c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b0de36a164721727bc584728c63bcb1') in 0.048895 seconds
+  Import took 0.055169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/7.loser/MantisLords_1_11.asset
+  artifactKey: Guid(7ab55638fd2a0004ab053d6f16b1c040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/7.loser/MantisLords_1_11.asset using Guid(7ab55638fd2a0004ab053d6f16b1c040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7be20a3f9c184d8257e8feecf83a7b08') in 0.043942 seconds
+  Import took 0.050029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/7.loser/MantisLords_1_12.asset
+  artifactKey: Guid(e7b4310c35d901c4dae3c4ecfc0e6c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/7.loser/MantisLords_1_12.asset using Guid(e7b4310c35d901c4dae3c4ecfc0e6c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b0de36a164721727bc584728c63bcb1') in 0.039315 seconds
+  Import took 0.045236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.812700 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/MantisLords_1_16.asset
+  artifactKey: Guid(03ee317ff8bc4544f89ef6fb51af65be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/MantisLords_1_16.asset using Guid(03ee317ff8bc4544f89ef6fb51af65be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3eee8a10131ab62cb0ced50932c46f8') in 0.049963 seconds
+  Import took 0.055049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.921375 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/7.loser/MantisLords_1_16.asset
+  artifactKey: Guid(88dc51c1e6fcfa74ab3fb0a659073397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/7.loser/MantisLords_1_16.asset using Guid(88dc51c1e6fcfa74ab3fb0a659073397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f725cb2b20a5fb178c4eb2cc72dbf4') in 0.044098 seconds
+  Import took 0.049288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.261992 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/MantisLords_1_10.asset
+  artifactKey: Guid(2fbb1ad910522824f8235de3e1aacce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/MantisLords_1_10.asset using Guid(2fbb1ad910522824f8235de3e1aacce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f368b92baace9e1aa8ab671799ff85') in 0.044589 seconds
+  Import took 0.050514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.272637 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/7.loser/MantisLords_1_11.asset
+  artifactKey: Guid(124267054f489fc498dcfec4d787bf69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/7.loser/MantisLords_1_11.asset using Guid(124267054f489fc498dcfec4d787bf69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d8b21075b96c3d6ed520f27b0f76970') in 0.041717 seconds
+  Import took 0.048014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/7.loser/MantisLords_1_11.asset
+  artifactKey: Guid(124267054f489fc498dcfec4d787bf69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/7.loser/MantisLords_1_11.asset using Guid(124267054f489fc498dcfec4d787bf69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d8b21075b96c3d6ed520f27b0f76970') in 0.043937 seconds
+  Import took 0.051594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.767813 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/7.loser/MantisLords_1_12.asset
+  artifactKey: Guid(8321ddbd36df3b645a5002577cd9ea3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/7.loser/MantisLords_1_12.asset using Guid(8321ddbd36df3b645a5002577cd9ea3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba352dcb3e5ef32aec525eb9598433c8') in 0.044546 seconds
+  Import took 0.051091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.602325 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/7.loser/MantisLords_1_13.asset
+  artifactKey: Guid(c941c81aab8428a4298973eea1a5cbd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/7.loser/MantisLords_1_13.asset using Guid(c941c81aab8428a4298973eea1a5cbd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4344fe43e2edf5fe842b355cb23efcd9') in 0.044827 seconds
+  Import took 0.051855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.686627 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/7.loser/MantisLords_1_14.asset
+  artifactKey: Guid(b3e944b967976cd4993831b8024358dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/7.loser/MantisLords_1_14.asset using Guid(b3e944b967976cd4993831b8024358dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412de2ccda7698bf9dc6406033ca631e') in 0.048058 seconds
+  Import took 0.054142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002256 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/7.loser/MantisLords_1_14.asset
+  artifactKey: Guid(b3e944b967976cd4993831b8024358dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/7.loser/MantisLords_1_14.asset using Guid(b3e944b967976cd4993831b8024358dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412de2ccda7698bf9dc6406033ca631e') in 0.037163 seconds
+  Import took 0.042966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.602635 seconds.
+  path: Assets/04.Sprites/Enemy/Boss/7.loser/MantisLords_1_15.asset
+  artifactKey: Guid(49625f33ec0e7414d9bb73b77a90e7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Sprites/Enemy/Boss/7.loser/MantisLords_1_15.asset using Guid(49625f33ec0e7414d9bb73b77a90e7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a3bd886df5ff9c50087d54f9354f3d') in 0.047286 seconds
+  Import took 0.053241 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005324 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2081 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.7 MB.
-System memory in use after: 180.6 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2555.
-Total: 2.492300 ms (FindLiveObjects: 0.210000 ms CreateObjectMapping: 0.082900 ms MarkObjects: 2.044000 ms  DeleteObjects: 0.154400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005131 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.080 seconds
+- Completed reload, in  1.185 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2081 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.7 MB.
-System memory in use after: 180.7 MB.
+Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.2 MB.
+System memory in use after: 186.2 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2559.
-Total: 2.518900 ms (FindLiveObjects: 0.214100 ms CreateObjectMapping: 0.085700 ms MarkObjects: 2.065800 ms  DeleteObjects: 0.152100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005395 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.039 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2081 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.7 MB.
-System memory in use after: 180.7 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2563.
-Total: 2.598100 ms (FindLiveObjects: 0.213000 ms CreateObjectMapping: 0.079200 ms MarkObjects: 2.144300 ms  DeleteObjects: 0.160400 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2807.
+Total: 2.412200 ms (FindLiveObjects: 0.227500 ms CreateObjectMapping: 0.086700 ms MarkObjects: 1.937400 ms  DeleteObjects: 0.159700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1076.782578 seconds.
-  path: Assets/02.Scripts/PlayerCtrl.cs
-  artifactKey: Guid(e6f67e336cec0a44285607457924a9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/02.Scripts/PlayerCtrl.cs using Guid(e6f67e336cec0a44285607457924a9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb0aa2b563b44e9706f49b3a0a0e4b9') in 0.020729 seconds
-  Import took 0.025430 seconds .
+  Time since last request: 109.522926 seconds.
+  path: Assets/02.Scripts/Enemy/Boss.cs
+  artifactKey: Guid(b6a54d97ba9fb334689825e42175a3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Scripts/Enemy/Boss.cs using Guid(b6a54d97ba9fb334689825e42175a3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c38055f1a431928d9f41fdab25e967b') in 0.010299 seconds
+  Import took 0.014941 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.021802 seconds.
-  path: Assets/02.Scripts/PlayerCtrl.cs
-  artifactKey: Guid(e6f67e336cec0a44285607457924a9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/02.Scripts/PlayerCtrl.cs using Guid(e6f67e336cec0a44285607457924a9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb0aa2b563b44e9706f49b3a0a0e4b9') in 0.003744 seconds
-  Import took 0.008689 seconds .
+  Time since last request: 0.002003 seconds.
+  path: Assets/02.Scripts/Enemy/Boss.cs
+  artifactKey: Guid(b6a54d97ba9fb334689825e42175a3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Scripts/Enemy/Boss.cs using Guid(b6a54d97ba9fb334689825e42175a3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c38055f1a431928d9f41fdab25e967b') in 0.009654 seconds
+  Import took 0.015965 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006457 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.442 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2081 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.7 MB.
-System memory in use after: 180.7 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2567.
-Total: 2.799400 ms (FindLiveObjects: 0.386600 ms CreateObjectMapping: 0.156800 ms MarkObjects: 2.133400 ms  DeleteObjects: 0.121500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009074 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  6.057 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2081 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.7 MB.
-System memory in use after: 180.7 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2571.
-Total: 3.734700 ms (FindLiveObjects: 0.249200 ms CreateObjectMapping: 0.112000 ms MarkObjects: 3.212700 ms  DeleteObjects: 0.159400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007300 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  5.842 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2081 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.7 MB.
-System memory in use after: 180.7 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2575.
-Total: 3.999500 ms (FindLiveObjects: 0.254700 ms CreateObjectMapping: 0.100700 ms MarkObjects: 3.472700 ms  DeleteObjects: 0.169200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005376 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.052 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2081 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.8 MB.
-System memory in use after: 180.7 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2579.
-Total: 2.779500 ms (FindLiveObjects: 0.218000 ms CreateObjectMapping: 0.088200 ms MarkObjects: 2.322600 ms  DeleteObjects: 0.149700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005485 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.065 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2081 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.8 MB.
-System memory in use after: 180.8 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2583.
-Total: 2.978200 ms (FindLiveObjects: 0.203400 ms CreateObjectMapping: 0.079900 ms MarkObjects: 2.498500 ms  DeleteObjects: 0.181500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004563 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.124 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2081 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.9 MB.
-System memory in use after: 180.8 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2587.
-Total: 3.280300 ms (FindLiveObjects: 0.189600 ms CreateObjectMapping: 0.073500 ms MarkObjects: 2.858600 ms  DeleteObjects: 0.157400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007617 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  4.330 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2081 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.9 MB.
-System memory in use after: 180.8 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2591.
-Total: 3.993700 ms (FindLiveObjects: 0.531800 ms CreateObjectMapping: 0.319900 ms MarkObjects: 2.880500 ms  DeleteObjects: 0.259400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005667 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.875 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2081 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.9 MB.
-System memory in use after: 180.9 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2595.
-Total: 2.970900 ms (FindLiveObjects: 0.210500 ms CreateObjectMapping: 0.083500 ms MarkObjects: 2.520600 ms  DeleteObjects: 0.155000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005345 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.198 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2081 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.9 MB.
-System memory in use after: 180.9 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2599.
-Total: 3.484700 ms (FindLiveObjects: 0.787900 ms CreateObjectMapping: 0.304100 ms MarkObjects: 2.246400 ms  DeleteObjects: 0.145000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005039 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.061 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2081 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.9 MB.
-System memory in use after: 180.9 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2603.
-Total: 2.602600 ms (FindLiveObjects: 0.212500 ms CreateObjectMapping: 0.085500 ms MarkObjects: 2.140700 ms  DeleteObjects: 0.162800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006475 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.097 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2081 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.9 MB.
-System memory in use after: 180.9 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2607.
-Total: 2.331200 ms (FindLiveObjects: 0.200700 ms CreateObjectMapping: 0.080800 ms MarkObjects: 1.889400 ms  DeleteObjects: 0.159500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007145 seconds.
+Registered in 0.004847 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.166 seconds
+- Completed reload, in  1.482 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2081 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.9 MB.
-System memory in use after: 180.9 MB.
+Unloading 2089 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.2 MB.
+System memory in use after: 186.3 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2611.
-Total: 2.331700 ms (FindLiveObjects: 0.196000 ms CreateObjectMapping: 0.078200 ms MarkObjects: 1.888400 ms  DeleteObjects: 0.168000 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2812.
+Total: 2.788300 ms (FindLiveObjects: 0.258900 ms CreateObjectMapping: 0.105200 ms MarkObjects: 2.283300 ms  DeleteObjects: 0.139600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.820417 seconds.
+  path: Assets/02.Scripts/Enemy/ButtonM.cs
+  artifactKey: Guid(084f66229f3b0b34d9759aa41aea5350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Scripts/Enemy/ButtonM.cs using Guid(084f66229f3b0b34d9759aa41aea5350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc0cc1a40059993207063f479d57003') in 0.014822 seconds
+  Import took 0.018883 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004501 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.067 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2081 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.9 MB.
-System memory in use after: 180.9 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2615.
-Total: 2.563200 ms (FindLiveObjects: 0.196300 ms CreateObjectMapping: 0.071900 ms MarkObjects: 2.109600 ms  DeleteObjects: 0.184400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005159 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.952 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2081 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.9 MB.
-System memory in use after: 180.9 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2619.
-Total: 3.216700 ms (FindLiveObjects: 0.342500 ms CreateObjectMapping: 0.102900 ms MarkObjects: 2.628000 ms  DeleteObjects: 0.141900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 5513.761362 seconds.
-  path: Assets/06.Animations/Player/Player.controller
-  artifactKey: Guid(f82be2676c1c3754699f4b93ade7d834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/06.Animations/Player/Player.controller using Guid(f82be2676c1c3754699f4b93ade7d834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b45393b2f052cd7f1756a38c7652da') in 0.187326 seconds
-  Import took 0.194758 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 861.704403 seconds.
-  path: Assets/04.Sprites/Player_Edit.png
-  artifactKey: Guid(4fe28f23e10d8cb46b60114a233b89a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Player_Edit.png using Guid(4fe28f23e10d8cb46b60114a233b89a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4d59d1cccfeb2170719b2b5a7d9201c') in 0.376800 seconds
-  Import took 0.385127 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 91.495900 seconds.
-  path: Assets/04.Sprites/Player_Edit.png
-  artifactKey: Guid(4fe28f23e10d8cb46b60114a233b89a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Player_Edit.png using Guid(4fe28f23e10d8cb46b60114a233b89a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82442fb16d1d958dc0311769dd0cbe01') in 0.324704 seconds
-  Import took 0.332404 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2777.945965 seconds.
-  path: Assets/04.Sprites/Map/MapSprites_Add/mantis_detail_0024_a.png
-  artifactKey: Guid(cc95f569b70e69246a72239dd14434df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/MapSprites_Add/mantis_detail_0024_a.png using Guid(cc95f569b70e69246a72239dd14434df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2713869e8278d3d98a957914d03af1d1') in 0.034463 seconds
-  Import took 0.039959 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000369 seconds.
-  path: Assets/04.Sprites/Map/MapSprites_Add/mantis_sign_01.png
-  artifactKey: Guid(494232d22254bfd4b9bf4bf9ecd4a066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/MapSprites_Add/mantis_sign_01.png using Guid(494232d22254bfd4b9bf4bf9ecd4a066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e141da44c0616868528f3b9805067fdd') in 0.050842 seconds
-  Import took 0.054918 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.441385 seconds.
-  path: Assets/04.Sprites/Map/MapSprites_Add/mantis_sign_01_bench.png
-  artifactKey: Guid(70d141189eb38a04db330af63f15281a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/MapSprites_Add/mantis_sign_01_bench.png using Guid(70d141189eb38a04db330af63f15281a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e04887d04a44a68d846eb2d64c3f59c7') in 0.033507 seconds
-  Import took 0.039755 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000419 seconds.
-  path: Assets/04.Sprites/Map/MapSprites_Add/mantis_village_outside_door.png
-  artifactKey: Guid(204ce9382b3c36e45806b6bed1fc6a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/MapSprites_Add/mantis_village_outside_door.png using Guid(204ce9382b3c36e45806b6bed1fc6a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1268b599dcd711108ce5af4a4126331') in 0.048318 seconds
-  Import took 0.052233 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.412814 seconds.
-  path: Assets/04.Sprites/Map/MapSprites_Add/mantis_window.png
-  artifactKey: Guid(35ceaff679435f648ad344d15d10ad87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/MapSprites_Add/mantis_window.png using Guid(35ceaff679435f648ad344d15d10ad87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854c1967572253564afc964e57ca49d2') in 0.027095 seconds
-  Import took 0.032839 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/04.Sprites/Map/MapSprites_Add/spines0000.png
-  artifactKey: Guid(4a57222babd55574898a8e6605cd5dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/MapSprites_Add/spines0000.png using Guid(4a57222babd55574898a8e6605cd5dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0a1f267522d1cac92a7e49ce2efc07') in 0.042576 seconds
-  Import took 0.046454 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/04.Sprites/Map/MapSprites_Add/spines0002.png
-  artifactKey: Guid(78f963e4d33d80741970ba6b3459d80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/MapSprites_Add/spines0002.png using Guid(78f963e4d33d80741970ba6b3459d80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b575db46ab8dab0df0781b90d992a80f') in 0.044576 seconds
-  Import took 0.048160 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/04.Sprites/Map/MapSprites_Add/spines0001.png
-  artifactKey: Guid(4bf812581e9ee6f49ab7fa5b87aeea32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/MapSprites_Add/spines0001.png using Guid(4bf812581e9ee6f49ab7fa5b87aeea32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ccd3e7fa0ec98b9ddd29aa97f0aa2b') in 0.045054 seconds
-  Import took 0.049340 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.711731 seconds.
-  path: Assets/04.Sprites/Map/MapSprites_Add/spines0003.png
-  artifactKey: Guid(01bae3130d822d147a6b6dcce698a142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/MapSprites_Add/spines0003.png using Guid(01bae3130d822d147a6b6dcce698a142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0342f5fc21472152ff47dd73716110c4') in 0.033208 seconds
-  Import took 0.039459 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 475.344435 seconds.
-  path: Assets/04.Sprites/Map/atlas0 #2026560.png
-  artifactKey: Guid(d334ffc97069ec642a871e3d778a500b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/atlas0 #2026560.png using Guid(d334ffc97069ec642a871e3d778a500b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9638b2a84f12aa35b8f94cb1f5fe01fa') in 0.052933 seconds
-  Import took 0.059593 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000451 seconds.
-  path: Assets/04.Sprites/Map/bone_spike_04.png
-  artifactKey: Guid(0d9bd593dc451b34584e740a2bb4d34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/bone_spike_04.png using Guid(0d9bd593dc451b34584e740a2bb4d34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ad9e07f2b0802ba87069f7dfd119ef') in 0.026328 seconds
-  Import took 0.030968 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/04.Sprites/Map/bone_spike_06.png
-  artifactKey: Guid(c1b8c722501c10f4d9d83b39ed3acdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/bone_spike_06.png using Guid(c1b8c722501c10f4d9d83b39ed3acdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dae6b9391e3f19350c79f695856e8dc') in 0.029700 seconds
-  Import took 0.034331 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/04.Sprites/Map/bone_spike_03.png
-  artifactKey: Guid(fc68918070ae64b4191e98bcce3d4441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/bone_spike_03.png using Guid(fc68918070ae64b4191e98bcce3d4441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41fb50dccfd8608a8971c25cacdb5779') in 0.027095 seconds
-  Import took 0.032560 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 62.607436 seconds.
-  path: Assets/04.Sprites/Map/bone_spike_06.asset
-  artifactKey: Guid(73c588cd81fa54741aaf4ed3c90aa9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/bone_spike_06.asset using Guid(73c588cd81fa54741aaf4ed3c90aa9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '338119b80593719a31ec66c645792868') in 0.067033 seconds
-  Import took 0.072192 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 41.647340 seconds.
-  path: Assets/04.Sprites/Map/bone_spike_04.asset
-  artifactKey: Guid(d1780b8ab108e93429cb5ef3ec555901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/bone_spike_04.asset using Guid(d1780b8ab108e93429cb5ef3ec555901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6944ea1d956a23e14dd08744fb75d8a5') in 0.013791 seconds
-  Import took 0.018470 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.907199 seconds.
-  path: Assets/04.Sprites/Map/bone_spike_03.asset
-  artifactKey: Guid(f99b45f4b10f27f459959715e1667c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/bone_spike_03.asset using Guid(f99b45f4b10f27f459959715e1667c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71846390c8da3054e0e75fab4ab39f15') in 0.029404 seconds
-  Import took 0.044700 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 216.102555 seconds.
-  path: Assets/04.Sprites/Map/bone_spike_04.png
-  artifactKey: Guid(0d9bd593dc451b34584e740a2bb4d34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/bone_spike_04.png using Guid(0d9bd593dc451b34584e740a2bb4d34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c887bdd7f68154fdaf5c6b7d62d844c9') in 0.023776 seconds
-  Import took 0.028400 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.781148 seconds.
-  path: Assets/04.Sprites/Map/TileMap/bone_spike_06.asset
-  artifactKey: Guid(f3f15dfee29dfac48a0d7e22537af292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/TileMap/bone_spike_06.asset using Guid(f3f15dfee29dfac48a0d7e22537af292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81bb9114cdf7f2c700bbf9a2af19b6a8') in 0.010743 seconds
-  Import took 0.017132 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.255715 seconds.
-  path: Assets/04.Sprites/Map/bone_spike_04.png
-  artifactKey: Guid(0d9bd593dc451b34584e740a2bb4d34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/bone_spike_04.png using Guid(0d9bd593dc451b34584e740a2bb4d34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77355a2cbe2b0e25217d8a4236672cf3') in 0.018043 seconds
-  Import took 0.023112 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.216523 seconds.
-  path: Assets/04.Sprites/Map/bone_spike_04.png
-  artifactKey: Guid(0d9bd593dc451b34584e740a2bb4d34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/bone_spike_04.png using Guid(0d9bd593dc451b34584e740a2bb4d34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '467fe23414dbb8482430f6956a1738fc') in 0.026169 seconds
-  Import took 0.030396 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 52.924790 seconds.
-  path: Assets/04.Sprites/Map/Spike.prefab
-  artifactKey: Guid(69a13d54a9649e34385b7f273972c80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/Spike.prefab using Guid(69a13d54a9649e34385b7f273972c80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05c7601eb16cb28511bc2f40382d7baa') in 0.024492 seconds
-  Import took 0.030662 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 85.166256 seconds.
-  path: Assets/04.Sprites/Map/TileMap/bone_spike_04.asset
-  artifactKey: Guid(7c1101865c478d34d836846b0b193375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/TileMap/bone_spike_04.asset using Guid(7c1101865c478d34d836846b0b193375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3464852dadffc6bb4c5d68e6326aedf7') in 0.008526 seconds
-  Import took 0.013234 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000365 seconds.
-  path: Assets/04.Sprites/Map/TileMap/New Palette.prefab
-  artifactKey: Guid(f78ab1ed09d315240a2bba08d6a3cb00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/TileMap/New Palette.prefab using Guid(f78ab1ed09d315240a2bba08d6a3cb00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac625ed6b536a6942132ce207c045210') in 0.013096 seconds
-  Import took 0.019219 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 70.640420 seconds.
-  path: Assets/04.Sprites/Map/bone_spike_04.png
-  artifactKey: Guid(0d9bd593dc451b34584e740a2bb4d34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/bone_spike_04.png using Guid(0d9bd593dc451b34584e740a2bb4d34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c437b95ab7d19e701287fff6ff6099ea') in 0.026388 seconds
-  Import took 0.030506 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 85.913633 seconds.
-  path: Assets/04.Sprites/Map/TileMap/Spike.prefab
-  artifactKey: Guid(ffe770f3a18fbee4aa6ee70bc722a649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/TileMap/Spike.prefab using Guid(ffe770f3a18fbee4aa6ee70bc722a649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9205b3c726f10633a667b5e146f644e1') in 0.005469 seconds
-  Import took 0.010596 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.402941 seconds.
-  path: Assets/04.Sprites/Map/bone_spike_04.png
-  artifactKey: Guid(0d9bd593dc451b34584e740a2bb4d34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/bone_spike_04.png using Guid(0d9bd593dc451b34584e740a2bb4d34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57bd2d09015880ad1f7c29cbc604b9d0') in 0.015644 seconds
-  Import took 0.019641 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.025143 seconds.
-  path: Assets/04.Sprites/Map/bone_spike_04.png
-  artifactKey: Guid(0d9bd593dc451b34584e740a2bb4d34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/bone_spike_04.png using Guid(0d9bd593dc451b34584e740a2bb4d34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57bd2d09015880ad1f7c29cbc604b9d0') in 0.013430 seconds
-  Import took 0.018155 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.736191 seconds.
-  path: Assets/04.Sprites/Map/TileMap/Spike.prefab
-  artifactKey: Guid(ffe770f3a18fbee4aa6ee70bc722a649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/TileMap/Spike.prefab using Guid(ffe770f3a18fbee4aa6ee70bc722a649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797034446077297597313720b4602654') in 0.006100 seconds
-  Import took 0.011047 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.046276 seconds.
-  path: Assets/04.Sprites/Map/bone_spike_04.png
-  artifactKey: Guid(0d9bd593dc451b34584e740a2bb4d34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/bone_spike_04.png using Guid(0d9bd593dc451b34584e740a2bb4d34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92251dc9557d4d9c78eefd35bb14391c') in 0.020890 seconds
-  Import took 0.025691 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.547447 seconds.
-  path: Assets/04.Sprites/Map/bone_spike_03.png
-  artifactKey: Guid(fc68918070ae64b4191e98bcce3d4441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/bone_spike_03.png using Guid(fc68918070ae64b4191e98bcce3d4441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab091ca2e00c9bb45d6e5037aad8787') in 0.018473 seconds
-  Import took 0.023394 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001065 seconds.
-  path: Assets/04.Sprites/Map/bone_spike_03.png
-  artifactKey: Guid(fc68918070ae64b4191e98bcce3d4441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/bone_spike_03.png using Guid(fc68918070ae64b4191e98bcce3d4441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab091ca2e00c9bb45d6e5037aad8787') in 0.012980 seconds
-  Import took 0.018397 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.871058 seconds.
-  path: Assets/04.Sprites/Map/bone_spike_06.png
-  artifactKey: Guid(c1b8c722501c10f4d9d83b39ed3acdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/bone_spike_06.png using Guid(c1b8c722501c10f4d9d83b39ed3acdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77b69d842584327cabe115bd65380aa') in 0.022470 seconds
-  Import took 0.026719 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.346907 seconds.
-  path: Assets/04.Sprites/Map/bone_spike_06.png
-  artifactKey: Guid(c1b8c722501c10f4d9d83b39ed3acdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/bone_spike_06.png using Guid(c1b8c722501c10f4d9d83b39ed3acdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '914dc37fa9b9e6858a31164c2dd5d459') in 0.018152 seconds
-  Import took 0.023114 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 689.851568 seconds.
-  path: Assets/04.Sprites/Map/bone_spike_03.png
-  artifactKey: Guid(fc68918070ae64b4191e98bcce3d4441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/bone_spike_03.png using Guid(fc68918070ae64b4191e98bcce3d4441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '744860d8ae613c6f521d52f8b59efabf') in 0.018034 seconds
-  Import took 0.023453 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.277583 seconds.
-  path: Assets/04.Sprites/Map/bone_spike_03 1.png
-  artifactKey: Guid(85a4b2e555c8e5345b20234ab276e393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/bone_spike_03 1.png using Guid(85a4b2e555c8e5345b20234ab276e393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd748e90b9019f7fd0503ab5efabf3e60') in 0.027988 seconds
-  Import took 0.032195 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.217612 seconds.
-  path: Assets/04.Sprites/Map/bone_spike_03 1.png
-  artifactKey: Guid(85a4b2e555c8e5345b20234ab276e393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/bone_spike_03 1.png using Guid(85a4b2e555c8e5345b20234ab276e393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '549240b4f3d8662fe5b1a1d15d4b9f58') in 0.028256 seconds
-  Import took 0.032493 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 343.865444 seconds.
-  path: Assets/04.Sprites/Map/bone_spike_04 1.png
-  artifactKey: Guid(c0a9ec947bb85f542acb4acf62db0c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/bone_spike_04 1.png using Guid(c0a9ec947bb85f542acb4acf62db0c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd994c7b5fa50cbc9261c883bb655afd4') in 0.021860 seconds
-  Import took 0.025993 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.217868 seconds.
-  path: Assets/04.Sprites/Map/bone_spike_04 1.png
-  artifactKey: Guid(c0a9ec947bb85f542acb4acf62db0c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/bone_spike_04 1.png using Guid(c0a9ec947bb85f542acb4acf62db0c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40610b8934ebdfe82566670af42a8c63') in 0.015209 seconds
-  Import took 0.020193 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7333.393473 seconds.
-  path: Assets/04.Sprites/Player_Edit.png
-  artifactKey: Guid(4fe28f23e10d8cb46b60114a233b89a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Player_Edit.png using Guid(4fe28f23e10d8cb46b60114a233b89a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282199514fe5e5132f95f97b1e8f9c4a') in 0.399990 seconds
-  Import took 0.443335 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 38.086786 seconds.
-  path: Assets/04.Sprites/Player
-  artifactKey: Guid(36d736cd5ade62641a4a9f156ba7cf2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Player using Guid(36d736cd5ade62641a4a9f156ba7cf2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f69168665fe1dd50cc157cef6091480c') in 0.006358 seconds
-  Import took 0.011802 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.721878 seconds.
-  path: Assets/04.Sprites/Enemy
-  artifactKey: Guid(c95d306774c1b3b40b14982b8f96e3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Enemy using Guid(c95d306774c1b3b40b14982b8f96e3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d5ad3087e07d5cfeaf23ef24367ff5c') in 0.009817 seconds
-  Import took 0.015422 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.836937 seconds.
-  path: Assets/04.Sprites/Enemy/Mantis 1.png
-  artifactKey: Guid(e3121e7733f428b4083ec9a504009319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Enemy/Mantis 1.png using Guid(e3121e7733f428b4083ec9a504009319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5d11c2d866868ef51c588e8b067320') in 0.039914 seconds
-  Import took 0.045829 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/04.Sprites/Enemy/제목 없음.png
-  artifactKey: Guid(8f2ea801c534860469a2e67c229c5ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Enemy/제목 없음.png using Guid(8f2ea801c534860469a2e67c229c5ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '692a3ff295239c4eb653e33ac6718859') in 0.019566 seconds
-  Import took 0.026121 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000868 seconds.
-  path: Assets/04.Sprites/Enemy/Mantis 2.png
-  artifactKey: Guid(2e000aaf5aae51d4f963bb99a31f3f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Enemy/Mantis 2.png using Guid(2e000aaf5aae51d4f963bb99a31f3f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e645a1a877dc6a14e01fb8ed2cc826d9') in 0.023790 seconds
-  Import took 0.030871 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/04.Sprites/Enemy/Mantis_Baby.png
-  artifactKey: Guid(f992694568dc2d847ab81c3e0e71add5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Enemy/Mantis_Baby.png using Guid(f992694568dc2d847ab81c3e0e71add5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5846078c6ba56f3896c5e6589009c364') in 0.022704 seconds
-  Import took 0.028089 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.762886 seconds.
-  path: Assets/02.Scripts/Player
-  artifactKey: Guid(3b79dfbbcc9df4543980070506475ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/02.Scripts/Player using Guid(3b79dfbbcc9df4543980070506475ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c735fdac2f21c9db615122bae2c0be') in 0.005445 seconds
-  Import took 0.010960 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.118108 seconds.
-  path: Assets/02.Scripts/FollowCam.cs
-  artifactKey: Guid(724854cb4df10794ea41a612ad8717b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/02.Scripts/FollowCam.cs using Guid(724854cb4df10794ea41a612ad8717b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492a3b2eb19b648dd945a4193e396a6b') in 0.009468 seconds
-  Import took 0.013847 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003123 seconds.
-  path: Assets/02.Scripts/FollowCam.cs
-  artifactKey: Guid(724854cb4df10794ea41a612ad8717b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/02.Scripts/FollowCam.cs using Guid(724854cb4df10794ea41a612ad8717b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492a3b2eb19b648dd945a4193e396a6b') in 0.007032 seconds
-  Import took 0.011202 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.388609 seconds.
-  path: Assets/02.Scripts/AttackTrail.cs
-  artifactKey: Guid(2ab28bfa411013c4585bf3c2809af197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/02.Scripts/AttackTrail.cs using Guid(2ab28bfa411013c4585bf3c2809af197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c73e28db3846d2f9b22f6c9a58b0f588') in 0.009220 seconds
-  Import took 0.014332 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.230810 seconds.
+Registered in 0.004742 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.988 seconds
+- Completed reload, in  4.654 seconds
 Platform modules already initialized, skipping
-Script is not up to date after domain reload: guid(d377bd583adaf994396ea1391deb61a3) path("Assets/02.Scripts/Enemy/Mantis_baby.cs") state(2)
-Script is not up to date after domain reload: guid(8db89c9990cc92f4a80d5bb9c44d6ed4) path("Assets/02.Scripts/Enemy/UIManager.cs") state(2)
-Script is not up to date after domain reload: guid(482bfbc0f8cfb2443a2585e072f35f93) path("Assets/02.Scripts/Enemy/exmonster.cs") state(2)
-Script is not up to date after domain reload: guid(a04c1257733ea164380b5f4bdba82a02) path("Assets/02.Scripts/Enemy/monsterAI.cs") state(2)
-Script is not up to date after domain reload: guid(3aa37462d8224584ea10342413ae7f1b) path("Assets/02.Scripts/Enemy/player.cs") state(2)
 Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2081 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 184.0 MB.
-System memory in use after: 184.0 MB.
+Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.2 MB.
+System memory in use after: 186.3 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2663.
-Total: 2.665800 ms (FindLiveObjects: 0.248000 ms CreateObjectMapping: 0.098200 ms MarkObjects: 2.192300 ms  DeleteObjects: 0.126400 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2815.
+Total: 2.970000 ms (FindLiveObjects: 0.285900 ms CreateObjectMapping: 0.106100 ms MarkObjects: 2.437300 ms  DeleteObjects: 0.139400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 119.449032 seconds.
+  path: Assets/02.Scripts/Enemy/Mantis_baby.cs
+  artifactKey: Guid(d377bd583adaf994396ea1391deb61a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Scripts/Enemy/Mantis_baby.cs using Guid(d377bd583adaf994396ea1391deb61a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb15cca9e7e1a41ce8e5e9160a01349') in 0.016661 seconds
+  Import took 0.020735 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.014985 seconds.
+Registered in 0.004431 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.275 seconds
+- Completed reload, in  1.290 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2086 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 184.1 MB.
-System memory in use after: 184.1 MB.
+Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.2 MB.
+System memory in use after: 186.3 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2672.
-Total: 3.177400 ms (FindLiveObjects: 0.356400 ms CreateObjectMapping: 0.093500 ms MarkObjects: 2.565100 ms  DeleteObjects: 0.160600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 48.915933 seconds.
-  path: Assets/03.Prefabs/enemy
-  artifactKey: Guid(efe874b39dd899c44902204a7e311828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/03.Prefabs/enemy using Guid(efe874b39dd899c44902204a7e311828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b236abbe1fb2b9844d973bc3dc96f4d3') in 0.014661 seconds
-  Import took 0.019303 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.722929 seconds.
-  path: Assets/06.Animations
-  artifactKey: Guid(e56a3faaffde8974e9b379a6b06ec744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/06.Animations using Guid(e56a3faaffde8974e9b379a6b06ec744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd22a9274b34a77e4f409ab71f6001e') in 0.011498 seconds
-  Import took 0.016168 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.675006 seconds.
-  path: Assets/06.Animations/BJY_Animation
-  artifactKey: Guid(37c9b8ca0032a194790f8ab7dfbe813e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/06.Animations/BJY_Animation using Guid(37c9b8ca0032a194790f8ab7dfbe813e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57836198449548dd318e3a65ff7a24b5') in 0.019874 seconds
-  Import took 0.031089 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.323533 seconds.
-  path: Assets/06.Animations/Enemy
-  artifactKey: Guid(37c9b8ca0032a194790f8ab7dfbe813e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/06.Animations/Enemy using Guid(37c9b8ca0032a194790f8ab7dfbe813e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1fd4e5264516629de792190f50d72cc') in 0.008064 seconds
-  Import took 0.012783 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.858629 seconds.
-  path: Assets/04.Sprites/UI
-  artifactKey: Guid(c142573e324aea74e9970054133abf0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/UI using Guid(c142573e324aea74e9970054133abf0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c92423fbbf7f980cccb4d194770eac') in 0.009896 seconds
-  Import took 0.029625 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 94.052224 seconds.
-  path: Assets/03.Prefabs/enemy/Mantis_Baby_1.prefab
-  artifactKey: Guid(1a4044dc07878454f9f3c0a8a5a18817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/03.Prefabs/enemy/Mantis_Baby_1.prefab using Guid(1a4044dc07878454f9f3c0a8a5a18817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612d69d787055c3675b2121004df371c') in 0.046194 seconds
-  Import took 0.056970 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000559 seconds.
-  path: Assets/03.Prefabs/enemy/Mantis _1.prefab
-  artifactKey: Guid(2ba1b48661346ce49b11c9d837f8e521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/03.Prefabs/enemy/Mantis _1.prefab using Guid(2ba1b48661346ce49b11c9d837f8e521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adc51ea27773df36a081483e6804aa63') in 0.018121 seconds
-  Import took 0.035923 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 71.316084 seconds.
-  path: Assets/03.Prefabs/enemy/Mantis _1.prefab
-  artifactKey: Guid(2ba1b48661346ce49b11c9d837f8e521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/03.Prefabs/enemy/Mantis _1.prefab using Guid(2ba1b48661346ce49b11c9d837f8e521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '117ceb9ab43c442ca31b42d9220d3505') in 0.012579 seconds
-  Import took 0.019567 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 41.806639 seconds.
-  path: Assets/01.Scenes/SampleScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/01.Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00c1381977548b69f47f61dfafe1f9b') in 0.012162 seconds
-  Import took 0.016323 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.012203 seconds.
-  path: Assets/01.Scenes/MantisBillage_2.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/01.Scenes/MantisBillage_2.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac5d66fe961647156ff6141413f5512') in 0.023547 seconds
-  Import took 0.028022 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.286147 seconds.
-  path: Assets/01.Scenes/BJY.unity
-  artifactKey: Guid(aca8d1dea78ae4442bb41b526300e822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/01.Scenes/BJY.unity using Guid(aca8d1dea78ae4442bb41b526300e822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ef94891ae8c7350fd230687aa82dc8') in 0.016121 seconds
-  Import took 0.020104 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/01.Scenes/BJY.unity
-  artifactKey: Guid(aca8d1dea78ae4442bb41b526300e822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/01.Scenes/BJY.unity using Guid(aca8d1dea78ae4442bb41b526300e822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ef94891ae8c7350fd230687aa82dc8') in 0.006428 seconds
-  Import took 0.010453 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.173073 seconds.
-  path: Assets/03.Prefabs/enemy/Mantis_Baby_1.prefab
-  artifactKey: Guid(1a4044dc07878454f9f3c0a8a5a18817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/03.Prefabs/enemy/Mantis_Baby_1.prefab using Guid(1a4044dc07878454f9f3c0a8a5a18817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ebef70d77c337b890549dd79074b50') in 0.014461 seconds
-  Import took 0.019992 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000716 seconds.
-  path: Assets/03.Prefabs/enemy/Mantis_Baby_1.prefab
-  artifactKey: Guid(1a4044dc07878454f9f3c0a8a5a18817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/03.Prefabs/enemy/Mantis_Baby_1.prefab using Guid(1a4044dc07878454f9f3c0a8a5a18817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ebef70d77c337b890549dd79074b50') in 0.008234 seconds
-  Import took 0.018627 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 136.976445 seconds.
-  path: 
-  artifactKey: Guid(317b913b4d9f8db478a244840d6934fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing  using Guid(317b913b4d9f8db478a244840d6934fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000105 seconds
-  ERROR: Unknown asset with GUID '317b913b4d9f8db478a244840d6934fa'
-  Import took 0.050606 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 67.263261 seconds.
-  path: Assets/06.Animations/Enemy/Controllers/Mantis.controller
-  artifactKey: Guid(eb2bacb8b20fb6f40b7b73d456a42545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/06.Animations/Enemy/Controllers/Mantis.controller using Guid(eb2bacb8b20fb6f40b7b73d456a42545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dab877af41f4713c26def8623aca004') in 0.021620 seconds
-  Import took 0.025863 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.347385 seconds.
-  path: Assets/06.Animations/Enemy/Animations/Mantis/Mantis_IDLE.anim
-  artifactKey: Guid(7b191c489fe36e9479131189d88f919e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/06.Animations/Enemy/Animations/Mantis/Mantis_IDLE.anim using Guid(7b191c489fe36e9479131189d88f919e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e36018775321339dba6ffbfa448973') in 0.012608 seconds
-  Import took 0.016627 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000471 seconds.
-  path: Assets/06.Animations/Enemy/Animations/Mantis/Mantis_IDLE.anim
-  artifactKey: Guid(7b191c489fe36e9479131189d88f919e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/06.Animations/Enemy/Animations/Mantis/Mantis_IDLE.anim using Guid(7b191c489fe36e9479131189d88f919e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e36018775321339dba6ffbfa448973') in 0.008827 seconds
-  Import took 0.015158 seconds .
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2819.
+Total: 3.318100 ms (FindLiveObjects: 0.744600 ms CreateObjectMapping: 0.371700 ms MarkObjects: 2.062700 ms  DeleteObjects: 0.137800 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.010528 seconds.
+Registered in 0.004690 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.259 seconds
+- Completed reload, in  4.973 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2086 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 184.2 MB.
-System memory in use after: 184.1 MB.
+Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.2 MB.
+System memory in use after: 186.3 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2676.
-Total: 3.526900 ms (FindLiveObjects: 0.249400 ms CreateObjectMapping: 0.089900 ms MarkObjects: 3.062600 ms  DeleteObjects: 0.123600 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2823.
+Total: 2.938700 ms (FindLiveObjects: 0.261300 ms CreateObjectMapping: 0.108800 ms MarkObjects: 2.428200 ms  DeleteObjects: 0.139200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006600 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.334 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.2 MB.
+System memory in use after: 186.3 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2827.
+Total: 2.650600 ms (FindLiveObjects: 0.284400 ms CreateObjectMapping: 0.114500 ms MarkObjects: 2.096900 ms  DeleteObjects: 0.153300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004383 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.209 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.2 MB.
+System memory in use after: 186.3 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2831.
+Total: 2.672100 ms (FindLiveObjects: 0.385000 ms CreateObjectMapping: 0.153700 ms MarkObjects: 1.999200 ms  DeleteObjects: 0.133100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 323.602596 seconds.
-  path: Assets/04.Sprites/Map/bone_spike_04 2.png
-  artifactKey: Guid(2f508261d745fb542990c4e1e53a23a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/bone_spike_04 2.png using Guid(2f508261d745fb542990c4e1e53a23a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153412ba3c6c32c490c0d8a06ba59af0') in 0.083211 seconds
-  Import took 0.087900 seconds .
+  Time since last request: 225.386841 seconds.
+  path: Assets/06.Animations/Enemy/Controllers/Mantis_Baby_Cintroller.controller
+  artifactKey: Guid(5a121c5371dd0ec4eb2c301f72a8ca9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Animations/Enemy/Controllers/Mantis_Baby_Cintroller.controller using Guid(5a121c5371dd0ec4eb2c301f72a8ca9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c55bac78d29231389a78c9411d0769') in 0.045982 seconds
+  Import took 0.049764 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.594942 seconds.
-  path: Assets/04.Sprites/Map/TileMap/bone_spike_03.asset
-  artifactKey: Guid(f4a31dc1dcb7abf47805ecec639233e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/TileMap/bone_spike_03.asset using Guid(f4a31dc1dcb7abf47805ecec639233e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c17554e0ef19c9d5cd9b1f6e78350cd') in 0.032445 seconds
-  Import took 0.037042 seconds .
+  Time since last request: 12.239840 seconds.
+  path: Assets/03.Prefabs/enemy/Mantis _1.prefab
+  artifactKey: Guid(2ba1b48661346ce49b11c9d837f8e521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Prefabs/enemy/Mantis _1.prefab using Guid(2ba1b48661346ce49b11c9d837f8e521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62aa029a6e3234035f4a0837026e3c88') in 0.183520 seconds
+  Import took 0.188533 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004697 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.068 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.2 MB.
+System memory in use after: 186.3 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2836.
+Total: 2.941200 ms (FindLiveObjects: 0.294000 ms CreateObjectMapping: 0.194800 ms MarkObjects: 2.268900 ms  DeleteObjects: 0.182100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000361 seconds.
-  path: Assets/04.Sprites/Map/TileMap/bone_spike_04 1.asset
-  artifactKey: Guid(6f70a2518e34d2a4a9686166c19f6593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/TileMap/bone_spike_04 1.asset using Guid(6f70a2518e34d2a4a9686166c19f6593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc8c655fc2816a3fded739823170b27') in 0.018788 seconds
-  Import took 0.022427 seconds .
+  Time since last request: 12.755639 seconds.
+  path: Assets/06.Animations/Enemy/Animations/Maintis_Baby
+  artifactKey: Guid(434c1b7b770752d4099e8c604b6ec454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Animations/Enemy/Animations/Maintis_Baby using Guid(434c1b7b770752d4099e8c604b6ec454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa288f468f5318be306f3f764e0da81') in 0.015239 seconds
+  Import took 0.019369 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/04.Sprites/Map/TileMap/bone_spike_04 2.asset
-  artifactKey: Guid(e4d7da8f83d09f84598eab9fb326a86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/TileMap/bone_spike_04 2.asset using Guid(e4d7da8f83d09f84598eab9fb326a86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34f6b6a1f5c3e1de97817fe0901b312') in 0.009828 seconds
-  Import took 0.015390 seconds .
+  Time since last request: 2.552073 seconds.
+  path: Assets/06.Animations/Enemy/Animations/Mantis/Matis_WALK.anim
+  artifactKey: Guid(0b55955a563ac5247ad3fbd37a079dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Animations/Enemy/Animations/Mantis/Matis_WALK.anim using Guid(0b55955a563ac5247ad3fbd37a079dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579948fdebb40b687e7234310e598033') in 0.024213 seconds
+  Import took 0.030019 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.085696 seconds.
-  path: Assets/04.Sprites/Map/TileMap/Spike.prefab
-  artifactKey: Guid(ffe770f3a18fbee4aa6ee70bc722a649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/TileMap/Spike.prefab using Guid(ffe770f3a18fbee4aa6ee70bc722a649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509678d26809f816f9e18b36e7b873a5') in 0.022869 seconds
-  Import took 0.026752 seconds .
+  Time since last request: 0.002148 seconds.
+  path: Assets/06.Animations/Enemy/Animations/Mantis/Matis_WALK.anim
+  artifactKey: Guid(0b55955a563ac5247ad3fbd37a079dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Animations/Enemy/Animations/Mantis/Matis_WALK.anim using Guid(0b55955a563ac5247ad3fbd37a079dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579948fdebb40b687e7234310e598033') in 0.011436 seconds
+  Import took 0.015690 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 25.381388 seconds.
-  path: Assets/04.Sprites/Map/TileMap/bone_spike_04.asset
-  artifactKey: Guid(7c1101865c478d34d836846b0b193375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/TileMap/bone_spike_04.asset using Guid(7c1101865c478d34d836846b0b193375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52fbe5b7b3331fd4777769e5d28343ac') in 0.034559 seconds
-  Import took 0.038660 seconds .
+  Time since last request: 48.303913 seconds.
+  path: Assets/03.Prefabs/enemy/Mantis _1.prefab
+  artifactKey: Guid(2ba1b48661346ce49b11c9d837f8e521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Prefabs/enemy/Mantis _1.prefab using Guid(2ba1b48661346ce49b11c9d837f8e521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f326c5a2e541918046312128db3df7ec') in 0.099453 seconds
+  Import took 0.104373 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.058325 seconds.
-  path: Assets/04.Sprites/Map/TileMap/bone_spike_04.asset
-  artifactKey: Guid(7c1101865c478d34d836846b0b193375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/TileMap/bone_spike_04.asset using Guid(7c1101865c478d34d836846b0b193375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52fbe5b7b3331fd4777769e5d28343ac') in 0.029230 seconds
-  Import took 0.034307 seconds .
+  Time since last request: 15.144217 seconds.
+  path: Assets/03.Prefabs/enemy/Mantis _1.prefab
+  artifactKey: Guid(2ba1b48661346ce49b11c9d837f8e521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Prefabs/enemy/Mantis _1.prefab using Guid(2ba1b48661346ce49b11c9d837f8e521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc5211f2d7c254378402ab7f30deb4a') in 0.037339 seconds
+  Import took 0.042266 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 30.140119 seconds.
-  path: Assets/04.Sprites/Map/TileMap/Spike.prefab
-  artifactKey: Guid(ffe770f3a18fbee4aa6ee70bc722a649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/TileMap/Spike.prefab using Guid(ffe770f3a18fbee4aa6ee70bc722a649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '807d3e56d34d8e13bd00f292adbfad1c') in 0.005555 seconds
-  Import took 0.009716 seconds .
+  Time since last request: 23.876049 seconds.
+  path: Assets/03.Prefabs/enemy/Mantis _1.prefab
+  artifactKey: Guid(2ba1b48661346ce49b11c9d837f8e521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Prefabs/enemy/Mantis _1.prefab using Guid(2ba1b48661346ce49b11c9d837f8e521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74a728d0c43fa0016c31b78f0263cf9') in 0.044730 seconds
+  Import took 0.050373 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 4.311959 seconds.
-  path: Assets/04.Sprites/Map/TileMap/Spike.prefab
-  artifactKey: Guid(ffe770f3a18fbee4aa6ee70bc722a649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/TileMap/Spike.prefab using Guid(ffe770f3a18fbee4aa6ee70bc722a649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0046b1f05ce3a1dfba1ded22b287984a') in 0.007978 seconds
-  Import took 0.013834 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004394 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.181 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.2 MB.
+System memory in use after: 186.3 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 26.234049 seconds.
-  path: Assets/04.Sprites/Map/TileMap
-  artifactKey: Guid(5ad64fb07ab7c6e4b8676dcece377e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Sprites/Map/TileMap using Guid(5ad64fb07ab7c6e4b8676dcece377e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d37f1371cd475822720badba774c2e3') in 0.011077 seconds
-  Import took 0.015037 seconds .
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2841.
+Total: 2.881800 ms (FindLiveObjects: 0.243000 ms CreateObjectMapping: 0.089500 ms MarkObjects: 2.378900 ms  DeleteObjects: 0.169400 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
