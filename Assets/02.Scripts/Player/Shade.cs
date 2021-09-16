@@ -199,6 +199,7 @@ public class Shade : MonoBehaviour
 
             if (state == State.DEATH)
             {
+                playerSc.isCollectShade = true;
                 yield break;
             }
 
@@ -297,12 +298,13 @@ public class Shade : MonoBehaviour
             }
             else if (isDie)
             {
-                state = State.DEATH;
+                playerSc.isCollectShade = true;
                 isAware = false;
                 isAttack = false;
                 isUseSkill = false;
                 isTracing = false;
                 isReturning = false;
+                state = State.DEATH;
             }
 
         }

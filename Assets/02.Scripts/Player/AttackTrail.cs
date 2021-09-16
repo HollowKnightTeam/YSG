@@ -20,6 +20,17 @@ public class AttackTrail : MonoBehaviour
         if(!collision.CompareTag("Wall"))
             playerCtrl.attackOffset = true;
 
+        if (collision.CompareTag("Enemy"))
+        {
+            playerCtrl.curMp++;
+
+            if (!playerCtrl.isCollectShade && playerCtrl.curMp > 6)
+                playerCtrl.curMp = 6;
+
+            if (playerCtrl.curMp > playerCtrl.maxMp)
+                playerCtrl.curMp = playerCtrl.maxMp;
+        }
+
         hitEffect.transform.position = collision.bounds.ClosestPoint(transform.position)-new Vector3(0,0,1.5f);
         hitEffect.gameObject.SetActive(true);
         hitEffect.Play();

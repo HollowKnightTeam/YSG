@@ -27,7 +27,7 @@ public class EnemyDamageScr : MonoBehaviour
     {
         if (hitEffect)
         {
-            if (TryGetComponent<monsterAI>(out monsterAI monster))
+            if (TryGetComponent<monsterAI>(out monsterAI monster)|| TryGetComponent<Boss>(out Boss boss) )
             {
                 hitEffect = false;
                 StartCoroutine(HIT(0,null));
@@ -59,7 +59,6 @@ public class EnemyDamageScr : MonoBehaviour
         switch (type)
         {
             case 0:
-                print("피격셰이더 변경");
                 sr.material.shader = white;
                 yield return new WaitForSeconds(0.5f);
                 sr.material.shader = normal;

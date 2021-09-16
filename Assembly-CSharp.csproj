@@ -63,7 +63,7 @@
     <Compile Include="Assets\02.Scripts\Enemy\Mantis_baby.cs" />
     <Compile Include="Assets\02.Scripts\Player\FollowCam.cs" />
     <Compile Include="Assets\02.Scripts\Enemy\EnemyDamageScr.cs" />
-    <Compile Include="Assets\02.Scripts\Enemy\UIManager.cs" />
+    <Compile Include="Assets\02.Scripts\UIManager.cs" />
     <Compile Include="Assets\Assets\Scripts\BlurControl.cs" />
     <Compile Include="Assets\02.Scripts\Enemy\Boss.cs" />
     <Compile Include="Assets\02.Scripts\Player\SetShadePos.cs" />

@@ -30,7 +30,10 @@ public class PlayerCtrl : MonoBehaviour
     public State state = State.IDLE;
 
     [Header("스탯 관련 변수")]
-    public int hp = 10;
+    public int hp = 5;
+    public int curMp = 0;
+    public int maxMp = 9;
+    public bool isCollectShade = true;
 
     [Header("이동 관련 변수")]
     #region 이동 관련 변수
@@ -150,7 +153,6 @@ public class PlayerCtrl : MonoBehaviour
 
     [Header("기타")]
     FollowCam cam;
-
 
     #endregion
 
@@ -876,6 +878,7 @@ public class PlayerCtrl : MonoBehaviour
     {
         if (hp > 1)
         {
+        hp--;
             canDamage = false;
             damageVoid.Play();
             for (int a = 0; a < 6; a++)
@@ -893,22 +896,29 @@ public class PlayerCtrl : MonoBehaviour
                 yield return new WaitForSeconds(0.3f);
             }
             canDamage = true;
+            canAttack = true;
+            canDash = true;
+            canJump = true;
+            canSetDash = true;
+            canUseSkill = true;
         }
         else if(hp==1)
         {
+            hp--;
             isDie = true;
         }
-        hp--;
     }
 
 
     IEnumerator Death()
     {
         isDie = true;
+        isCollectShade = false;
+        curMp = 0;
         rb.gravityScale = 0;
         rb.simulated = false;
         yield return new WaitForSeconds(1f);
-        rb.gravityScale = 3;
+        rb.gravityScale = 1.5f;
         rb.simulated = true;
         shade.transform.position = transform.position;
         shade.gameObject.SetActive(true);

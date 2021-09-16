@@ -4,25 +4,26 @@ using UnityEngine;
 
 public class Sense : MonoBehaviour
 {
+    Boss boss;
 
+    private void Awake()
+    {
+        boss = GameObject.Find("MantisLords").GetComponent<Boss>();
+    }
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player")
         {
-            GameObject.Find("MantisLords").GetComponent<Boss>().BossHead_Up();
+            boss.BossHead_Up();
+            boss.canStart = true;
         }
     }
 
-
-    void Start()
+    private void OnTriggerExit2D(Collider2D collision)
     {
-
+        if (collision.CompareTag("Player"))
+            boss.canStart = false;
     }
 
-
-    void Update()
-    {
-
-    }
 }

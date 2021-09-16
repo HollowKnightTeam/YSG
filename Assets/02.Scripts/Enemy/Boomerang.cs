@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -11,7 +11,7 @@ public class Boomerang : MonoBehaviour
     float updownSpeed = 4f;
     float moveTimeX = 0f;
     float moveTimeY = 0f;
-    void Start()
+    void Awake()
     {
         //moveSpeed = 10f;
         Destroy(this.gameObject, 4f);

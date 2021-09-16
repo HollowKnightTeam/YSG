@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3989996291172016168}
   m_Layer: 0
   m_Name: Boomerang
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: bcfdb1d10e41cc043af6a43f11b4e82b, type: 2}
+  m_Sprite: {fileID: 7359696204193176839, guid: cab5e4ce231aced45b33db4a1551a55f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -98,6 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
+  target: {fileID: 0}
   moveSpeed: 10
 --- !u!95 &1446309614690030584
 Animator:

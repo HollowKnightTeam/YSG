@@ -7,15 +7,14 @@ public class monsterAI : MonoBehaviour
 {
     public enum State
     {
-        IDLE,//IDLE
-        ATTACK,//ATTACK
         WALK,//Mantis -> PATROL
+       ATTACK,//ATTACK
         DIE,//죽었을 때
         HIT,//맞았을 때
-        TRACE//추적할 떄
+        TRACE//추적할 때
     }
 
-    public State state = State.IDLE;//IDLE 초기 상태 지정
+    public State state = State.WALK;//WALK 초기 상태 지정
 
     Transform playerTr;//플레이어 위치 저장 변수
     Transform enemyTr;//적 위치 저장 변수
@@ -29,7 +28,7 @@ public class monsterAI : MonoBehaviour
 
     float stopDistance = 1.5f;
 
-    public float attackDist = 3f; //공격 사거리
+    public float attackDist = 5f; //공격 사거리
     public float traceDist = 2f;//추적 사거리
     public bool isDie = false;//사망 여부 판단 변수
     public bool isTracing = false;//추적 상태 판단 변수
@@ -62,14 +61,7 @@ public class monsterAI : MonoBehaviour
             playerTr = player.GetComponent<Transform>();
         }
 
-
-        var enemy = GameObject.FindGameObjectWithTag("Enemy");//enemy 태그 지정
-        if (enemy != null)
-        {
-            enemyTr = enemy.GetComponent<Transform>();
-        }
-
-        //enemyTr = GetComponent<Transform>();
+        enemyTr = GetComponent<Transform>();
 
         animator = GetComponent<Animator>();
 
@@ -113,15 +105,11 @@ public class monsterAI : MonoBehaviour
 
     public void Move_()//플립 및 추적 
     {
-        //movementFlag = Random.Range(0, 3);
         Vector3 moveVelocity = Vector3.zero;
-
-
 
         if (Vector2.Distance(transform.position, playerTr.position) < stopDistance)
         {
-            //Debug.Log("작동");
-            //transform.Translate(Vector2.zero * 0f * Time.deltaTime);
+           
             speed = 0f;
         }
         else
@@ -133,18 +121,12 @@ public class monsterAI : MonoBehaviour
         if (playerTr.transform.position.x >= this.transform.position.x)
         {
             flip.x = 1f;
-            // transform.Translate(Vector2.zero * speed * Time.deltaTime);
-
-
             transform.Translate(Vector2.right * speed * Time.deltaTime);
-            //transform.Translate(enemyTr.transform.position.x, playerTr.transform.position.x, speed * Time.deltaTime);
-
         }
         else
         {
             flip.x = -1f;
             transform.Translate(Vector2.left * speed * Time.deltaTime);
-            //Debug.Log("플립2");
         }
 
         this.transform.localScale = flip;
@@ -176,15 +158,7 @@ public class monsterAI : MonoBehaviour
             {
                 state = State.ATTACK;//공격
                 StartCoroutine(attackDelay()); //walk 애니메이션 호출
-                Debug.Log("애니메이션 작동");
             }
-
-            else if (dist >= attackDist)
-            {
-                state = State.IDLE;
-            }
-
-
 
             yield return new WaitForSeconds(1f);//위에서 설정한 지연시간 0.3초 대기
 
@@ -199,12 +173,6 @@ public class monsterAI : MonoBehaviour
 
             switch (state)
             {
-                case State.IDLE:
-                    animator.SetBool(Mantis_IDLE, true);
-                    animator.SetBool(Maintis_ATTACK, false);
-                    animator.SetBool(Maintis_WALK, false);
-                    break;
-
                 case State.WALK:
                     animator.SetBool(Maintis_WALK, true);
                     animator.SetBool(Maintis_ATTACK, false);
@@ -228,12 +196,11 @@ public class monsterAI : MonoBehaviour
                     animator.SetBool(Maintis_ATTACK, false);
                     animator.SetBool(Maintis_WALK, false);
 
-                    gameObject.tag = "Default";
+                    gameObject.tag = "Untagged";
                     isDie = true;
                     //애니메이션 종료
                     GetComponent<Collider2D>().enabled = false;//콜라이더 삭제
                     Destroy(gameObject, 0.5f);//0.5초 뒤 몬스터 삭제 
-                                              //알파값 조정 ->  죽었을 때 알파값 서서히 낮춰짐
                     break;
 
                 case State.HIT:

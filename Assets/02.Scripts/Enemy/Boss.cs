@@ -9,6 +9,7 @@ public class Boss : MonoBehaviour
 
     public Animator anim;
     SpriteRenderer rend;
+    BoxCollider2D collider;
 
     Vector3 nextPos;
     float moveSpeed;
@@ -20,29 +21,29 @@ public class Boss : MonoBehaviour
 
     public GameObject boomerang;
 
-    void Start()
+    public bool canStart;
+
+    void Awake()
     {
         anim = GetComponent<Animator>();
         rend = GetComponent<SpriteRenderer>();
         target = GameObject.FindWithTag("Player");
-
+        collider = GetComponent<BoxCollider2D>();
+        collider.enabled = false;
     }
 
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.DownArrow))
+        if (Input.GetKeyDown(KeyCode.DownArrow)&& canStart)
         {
+            collider.enabled = true;
             BossStageStart();
         }
 
         transform.Translate((nextPos - transform.position).normalized * Time.deltaTime * moveSpeed);
 
-        if (bossHP <= 0 && dieCoroutine == null)
-        {
-            dieCoroutine = BossLoserDie();
-            StartCoroutine(dieCoroutine);
-        }
+        DamageDie();
 
     }
 
@@ -54,6 +55,7 @@ public class Boss : MonoBehaviour
 
     public void BossStageStart()
     {
+        canStart = false;
         anim.SetTrigger("2_1Stand_Start");
         StartCoroutine("BossStageDeley");
     } // Ű �Է� �� ���ڿ��� �Ͼ
@@ -119,7 +121,12 @@ public class Boss : MonoBehaviour
         transform.position = new Vector3(3.1f, -3.9f, 0);
         nextPos = new Vector3(11.5f, -0.3f, 0f);
         moveSpeed = 16f;
+
+        currCoroutine = RushDeley();
+        StartCoroutine(currCoroutine);
+
     } // ���� ���� �� ���󰡱�
+
 
     public void BossRushStart_L()
     {
@@ -160,6 +167,9 @@ public class Boss : MonoBehaviour
         transform.position = new Vector3(-3.1f, -3.9f, 0);
         nextPos = new Vector3(-11.5f, -0.3f, 0f);
         moveSpeed = 16f;
+
+        currCoroutine = RushDeley();
+        StartCoroutine(currCoroutine);
     }
 
     public void RushPull()
@@ -203,6 +213,12 @@ public class Boss : MonoBehaviour
         BossRushEnd2_L();
         yield return new WaitForSeconds(0.3f);
     } // ����(��) Ǯ �ڷ�ƾ
+
+    IEnumerator RushDeley()
+    {
+        yield return new WaitForSeconds(0.3f);
+        rend.enabled = false;
+    }
 
     public void FlyingStart()
     {
@@ -374,7 +390,7 @@ public class Boss : MonoBehaviour
 
     public void BossDie1()
     {
-
+        collider.enabled = false;
         anim.SetTrigger("6_1Dying_Start");
         //StopCoroutine(currCoroutine);
 
@@ -415,7 +431,7 @@ public class Boss : MonoBehaviour
 
     public void LoserStart()
     {
-        transform.position = new Vector3(0, -0.55f, 0);
+        transform.position = new Vector3(-0.1f, 1.16f, 0);
         nextPos = transform.position;
 
         rend.enabled = true;
@@ -429,7 +445,7 @@ public class Boss : MonoBehaviour
     {
         anim.SetTrigger("7_2Loser_End");
 
-        transform.position = new Vector3(0, -0.55f, 0);
+        transform.position = new Vector3(-0.1f, 1.162f, 0);
         nextPos = transform.position;
     } // ���� �й��� ��
 
@@ -516,16 +532,14 @@ public class Boss : MonoBehaviour
 
     } // ���ϸ��� ����
 
-    public void Damage()
+    public void DamageDie()
     {
-        bossHP = 0;
+        if (bossHP <= 0 && dieCoroutine == null)
+        {
+            dieCoroutine = BossLoserDie();
+            StartCoroutine(dieCoroutine);
+        }
     }
-
-    public void Damage7()
-    {
-        bossHP -= 10;
-    }
-
 
 
 }
