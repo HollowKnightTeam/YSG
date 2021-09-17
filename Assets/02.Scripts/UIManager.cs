@@ -69,7 +69,7 @@ public class UIManager : MonoBehaviour
     {
         Damage__();
 
-        Debug.Log("코루틴 작동");
+        //Debug.Log("코루틴 작동");
         yield return null;
 
     }

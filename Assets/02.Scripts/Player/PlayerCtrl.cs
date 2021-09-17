@@ -108,6 +108,7 @@ public class PlayerCtrl : MonoBehaviour
     public GameObject[] spirit;
     bool isUsingSkill = false;
     bool canUseSkill = true;
+    bool isManaCanUseSkill =false;
     public float skillDelay;
     float skillTimer;
 
@@ -187,6 +188,14 @@ public class PlayerCtrl : MonoBehaviour
             isCanWallSlide();
             Attack();
             AttackOffset();
+            if (curMp >= 3)
+            {
+                isManaCanUseSkill = true;
+            }
+            else
+            {
+                isManaCanUseSkill = false;
+            }
         }
     }
 
@@ -241,7 +250,6 @@ public class PlayerCtrl : MonoBehaviour
 
         if (collision.CompareTag("Spine") && canDamage)
         {
-            print("가시 충돌");
             canDamage = false;
             canAttack = false;
             canDash = false;
@@ -258,7 +266,6 @@ public class PlayerCtrl : MonoBehaviour
         }
         else if (collision.CompareTag("Enemy") && canDamage)
         {
-            print("에네미 충돌");
             canDamage = false;
             canAttack = false;
             canDash = false;
@@ -718,8 +725,9 @@ public class PlayerCtrl : MonoBehaviour
     /// </summary>
     void Skill()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && canUseSkill)
+        if (Input.GetKeyDown(KeyCode.Space) && canUseSkill&& isManaCanUseSkill)
         {
+            curMp -= 3;
             StartCoroutine(setSkillActive());
             skillTimer = skillDelay;
             canUseSkill = false;
@@ -948,18 +956,13 @@ public class PlayerCtrl : MonoBehaviour
             }
             else
             {
-                if (isMoving)
-                {
-                    state = State.WALK;
-                }
-                else if (isJumping)
-                {
-                    state = State.JUMP;
-
-                }
-                else if (isLanded)
+                if (isLanded)
                 {
                     state = State.LANDED;
+                }
+                else if (isMoving)
+                {
+                    state = State.WALK;
                 }
                 else if (isTouchingFront)
                 {
@@ -968,6 +971,10 @@ public class PlayerCtrl : MonoBehaviour
                 else if (wallJumping)
                 {
                     state = State.WALLJUMP;
+                }
+                else if (isJumping)
+                {
+                    state = State.JUMP;
                 }
                 else if (isDashing)
                 {

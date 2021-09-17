@@ -5,7 +5,11 @@ using UnityEngine;
 
 public class Boss : MonoBehaviour
 {
-    public int bossHP = 210;
+    public int BossHP;
+
+    public EnemyDamageScr enemyDamageScr;
+    PlayerCtrl pCtrl;
+    int Php;
 
     public Animator anim;
     SpriteRenderer rend;
@@ -17,6 +21,7 @@ public class Boss : MonoBehaviour
     public GameObject target;
 
     IEnumerator currCoroutine;
+    IEnumerator bossPatternCoroutine;
     IEnumerator dieCoroutine = null;
 
     public GameObject boomerang;
@@ -30,6 +35,8 @@ public class Boss : MonoBehaviour
         target = GameObject.FindWithTag("Player");
         collider = GetComponent<BoxCollider2D>();
         collider.enabled = false;
+        pCtrl = target.GetComponent<PlayerCtrl>();
+        BossHP = enemyDamageScr.hp;
     }
 
 
@@ -44,9 +51,29 @@ public class Boss : MonoBehaviour
         transform.Translate((nextPos - transform.position).normalized * Time.deltaTime * moveSpeed);
 
         DamageDie();
-
+        BossReset();
     }
 
+    public void BossReset()
+    {
+        if(pCtrl.hp <= 0)
+        {
+            //bossHP = 210;
+            enemyDamageScr.hp = 210;
+            StopCoroutine(bossPatternCoroutine);
+            StopCoroutine(currCoroutine);
+            BossIdle();
+
+        }
+    }
+
+    public void BossIdle()
+    {
+        rend.enabled = true;
+        anim.SetTrigger("0_Idle");
+        transform.position = new Vector3(0.07f, 0.397f, 0);
+        nextPos = transform.position;
+    }
 
     public void BossHead_Up()
     {
@@ -70,8 +97,8 @@ public class Boss : MonoBehaviour
         // nextPos = ��ǥ ���� 
         // �ִϸ��̼� ���̿� �°� moveSpeed ����.
         // transform.position = Vector3.Lerp(transform.position, nextPos, Time.deltaTime*moveSpeed); >> update �Լ��� ���� �κ�.
-
-        StartCoroutine(BossPattern());
+        bossPatternCoroutine = BossPattern();
+        StartCoroutine(bossPatternCoroutine);
 
     } // �� ���ִٰ� �پ� ������ ��������
 
@@ -85,12 +112,11 @@ public class Boss : MonoBehaviour
     {
         rend.flipX = false;
         anim.SetTrigger("3_1Rush_Start");
-        //Vector3 pos = new Vector3(-5.38f, -1.87f, 0);
+
         transform.position = new Vector3(-5.38f, -1.87f, 0);
         nextPos = new Vector3(-4.64f, -2.94f, 0f);
-        moveSpeed = 20f;
-        //transform.position = Vector3.Lerp(transform.position, pos, Time.deltaTime * 10);
-        //transform.position = pos;
+        moveSpeed = 16f;
+
     } // ���� ���� ���� ����
 
     public void BossRushpreparation()
@@ -105,7 +131,7 @@ public class Boss : MonoBehaviour
     {
         anim.SetTrigger("3_3Rushing");
         nextPos = new Vector3(3.1f, -3.9f, 0);
-        moveSpeed = 20f;
+        moveSpeed = 17f;
     } // ���� ���� ����
 
     public void BossRushEnd1()
@@ -138,6 +164,7 @@ public class Boss : MonoBehaviour
         transform.position = new Vector3(5.38f, -1.87f, 0);
         nextPos = new Vector3(4.64f, -2.94f, 0f);
         moveSpeed = 16f;
+
     }
 
     public void BossRushpreparation_L()
@@ -151,7 +178,7 @@ public class Boss : MonoBehaviour
     {
         anim.SetTrigger("3_3Rushing");
         nextPos = new Vector3(-3.1f, -3.9f, 0);
-        moveSpeed = 20f;
+        moveSpeed = 17f;
     }
 
     public void BossRushEnd1_L()
@@ -228,6 +255,7 @@ public class Boss : MonoBehaviour
         transform.position = new Vector3(target.transform.position.x, 2.88f, 0);
         nextPos = new Vector3(target.transform.position.x, 2.08f, 0);
         moveSpeed = 10f;
+
     } // ������� ����
 
     public void Flyingpreparation()
@@ -299,6 +327,7 @@ public class Boss : MonoBehaviour
         transform.position = new Vector3(4.45f, -0.2f, 0);
         nextPos = new Vector3(6.36f, -0.57f, 0f);
         moveSpeed = 16f;
+
     } // �� ���� ����
 
     public void WallAttack()
@@ -351,6 +380,7 @@ public class Boss : MonoBehaviour
         transform.position = new Vector3(-4.45f, -0.2f, 0);
         nextPos = new Vector3(-6.36f, -0.57f, 0f);
         moveSpeed = 16f;
+ 
     }
 
     public void WallAttack_L()
@@ -534,7 +564,7 @@ public class Boss : MonoBehaviour
 
     public void DamageDie()
     {
-        if (bossHP <= 0 && dieCoroutine == null)
+        if (BossHP <= 0 && dieCoroutine == null)
         {
             dieCoroutine = BossLoserDie();
             StartCoroutine(dieCoroutine);

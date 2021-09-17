@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class EnemyDamageScr : MonoBehaviour
 {
-
-    public float hp = 20; //몬스터 체력
+    public Boss boss;
+    public int hp;
 
     SpriteRenderer sr;
     Shader normal;
     Shader white;
-
 
     Vector3 dir;
 
@@ -52,6 +51,16 @@ public class EnemyDamageScr : MonoBehaviour
                 shade.isDie = true;
             }
         }
+
+        if (gameObject.name == "MantisLords")
+        {
+            if (hp <= 0)
+            {
+                gameObject.GetComponent<Boss>().BossHP = 0;
+                gameObject.GetComponent<Boss>().DamageDie();
+            }
+        }
+
     }
 
     private IEnumerator HIT(int type, Shade shade)
@@ -70,15 +79,24 @@ public class EnemyDamageScr : MonoBehaviour
                 break;
         }
     }
+
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("PlayerAttack"))
         {
+            print("cndehf");
             dir = ((transform.position + new Vector3(0,0,0.13f))-collision.gameObject.transform.position).normalized;
-            print(dir);
             hitEffect = true;
-            hp -= collision.gameObject.GetComponent<AttackTrail>().power;//player 데미지 변수 만들어서 깎아 주기
+            hp -= collision.gameObject.GetComponent<AttackTrail>().power;
         }
-
     }
+
+    public void Damage(int damage)
+    {
+        hp -= damage;
+        StartCoroutine(HIT(0, null));
+    }
+
+    
+
 }

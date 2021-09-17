@@ -22,6 +22,6 @@ public class FollowCam : MonoBehaviour
         if(!setCameraY)
             y = player.position.y;
 
-         transform.position = Vector3.Lerp(transform.position, new Vector3(x, y, -10),Time.deltaTime*90f);
+         transform.position = Vector3.Lerp(transform.position, new Vector3(x, y, -10),1);
     }
 }

@@ -121,6 +121,7 @@ MonoBehaviour:
   anim: {fileID: 0}
   target: {fileID: 0}
   boomerang: {fileID: 2593156110801729390, guid: b35f7fc6c0e226b49920468c573f2a7a, type: 3}
+  canStart: 0
 --- !u!114 &-6698920712786703940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -147,7 +148,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.06319176, y: 1.4872955}
+  m_Offset: {x: -0.06319176, y: 1.28}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5590578, y: 0.047934674}
@@ -158,5 +159,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0699999, y: 3.2900002}
+  m_Size: {x: 1.0699999, y: 2.73}
   m_EdgeRadius: 0
